@@ -1,0 +1,7 @@
+interface:
+  display_name: "Coursework Grader"
+  short_description: "Adversarial feedback on coursework PDFs"
+  default_prompt: "Use $coursework-grader to review my submission PDF against this assignment PDF."
+
+policy:
+  allow_implicit_invocation: true

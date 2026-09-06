@@ -8,3 +8,6 @@ __pycache__/
 
 # macOS Finder metadata
 .DS_Store
+
+# Per-review coursework grading artifacts
+.grader/**
