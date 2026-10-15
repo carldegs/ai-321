@@ -1,0 +1,1346 @@
+[
+  {
+    "image_number": 1,
+    "image": "./assets/slide_01.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 1,
+    "figure_id": "slide-01"
+  },
+  {
+    "image_number": 2,
+    "image": "./assets/slide_02.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 2,
+    "figure_id": "slide-02"
+  },
+  {
+    "image_number": 3,
+    "image": "./assets/slide_03.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 3,
+    "figure_id": "slide-03"
+  },
+  {
+    "image_number": 4,
+    "image": "./assets/slide_04.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 4,
+    "figure_id": "slide-04"
+  },
+  {
+    "image_number": 5,
+    "image": "./assets/slide_05.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 5,
+    "figure_id": "slide-05"
+  },
+  {
+    "image_number": 6,
+    "image": "./assets/slide_06.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 6,
+    "figure_id": "slide-06"
+  },
+  {
+    "image_number": 7,
+    "image": "./assets/slide_07.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 7,
+    "figure_id": "slide-07"
+  },
+  {
+    "image_number": 8,
+    "image": "./assets/slide_08.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 8,
+    "figure_id": "slide-08"
+  },
+  {
+    "image_number": 9,
+    "image": "./assets/slide_09.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 9,
+    "figure_id": "slide-09"
+  },
+  {
+    "image_number": 10,
+    "image": "./assets/slide_10.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 10,
+    "figure_id": "slide-10"
+  },
+  {
+    "image_number": 11,
+    "image": "./assets/slide_11.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 11,
+    "figure_id": "slide-11"
+  },
+  {
+    "image_number": 12,
+    "image": "./assets/slide_12.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 12,
+    "figure_id": "slide-12"
+  },
+  {
+    "image_number": 13,
+    "image": "./assets/slide_13.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 13,
+    "figure_id": "slide-13"
+  },
+  {
+    "image_number": 14,
+    "image": "./assets/slide_14.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 14,
+    "figure_id": "slide-14"
+  },
+  {
+    "image_number": 15,
+    "image": "./assets/slide_15.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 15,
+    "figure_id": "slide-15"
+  },
+  {
+    "image_number": 16,
+    "image": "./assets/slide_16.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 16,
+    "figure_id": "slide-16"
+  },
+  {
+    "image_number": 17,
+    "image": "./assets/slide_17.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 17,
+    "figure_id": "slide-17"
+  },
+  {
+    "image_number": 18,
+    "image": "./assets/slide_18.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 18,
+    "figure_id": "slide-18"
+  },
+  {
+    "image_number": 19,
+    "image": "./assets/slide_19.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 19,
+    "figure_id": "slide-19"
+  },
+  {
+    "image_number": 20,
+    "image": "./assets/slide_20.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 20,
+    "figure_id": "slide-20"
+  },
+  {
+    "image_number": 21,
+    "image": "./assets/slide_21.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 21,
+    "figure_id": "slide-21"
+  },
+  {
+    "image_number": 22,
+    "image": "./assets/slide_22.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 22,
+    "figure_id": "slide-22"
+  },
+  {
+    "image_number": 23,
+    "image": "./assets/slide_23.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 23,
+    "figure_id": "slide-23"
+  },
+  {
+    "image_number": 24,
+    "image": "./assets/slide_24.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 24,
+    "figure_id": "slide-24"
+  },
+  {
+    "image_number": 25,
+    "image": "./assets/slide_25.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 25,
+    "figure_id": "slide-25"
+  },
+  {
+    "image_number": 26,
+    "image": "./assets/slide_26.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 26,
+    "figure_id": "slide-26"
+  },
+  {
+    "image_number": 27,
+    "image": "./assets/slide_27.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 27,
+    "figure_id": "slide-27"
+  },
+  {
+    "image_number": 28,
+    "image": "./assets/slide_28.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 28,
+    "figure_id": "slide-28"
+  },
+  {
+    "image_number": 29,
+    "image": "./assets/slide_29.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 29,
+    "figure_id": "slide-29"
+  },
+  {
+    "image_number": 30,
+    "image": "./assets/slide_30.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 30,
+    "figure_id": "slide-30"
+  },
+  {
+    "image_number": 31,
+    "image": "./assets/slide_31.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 31,
+    "figure_id": "slide-31"
+  },
+  {
+    "image_number": 32,
+    "image": "./assets/slide_32.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 32,
+    "figure_id": "slide-32"
+  },
+  {
+    "image_number": 33,
+    "image": "./assets/slide_33.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 33,
+    "figure_id": "slide-33"
+  },
+  {
+    "image_number": 34,
+    "image": "./assets/slide_34.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 34,
+    "figure_id": "slide-34"
+  },
+  {
+    "image_number": 35,
+    "image": "./assets/slide_35.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 35,
+    "figure_id": "slide-35"
+  },
+  {
+    "image_number": 36,
+    "image": "./assets/slide_36.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 36,
+    "figure_id": "slide-36"
+  },
+  {
+    "image_number": 37,
+    "image": "./assets/slide_37.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 37,
+    "figure_id": "slide-37"
+  },
+  {
+    "image_number": 38,
+    "image": "./assets/slide_38.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 38,
+    "figure_id": "slide-38"
+  },
+  {
+    "image_number": 39,
+    "image": "./assets/slide_39.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 39,
+    "figure_id": "slide-39"
+  },
+  {
+    "image_number": 40,
+    "image": "./assets/slide_40.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 40,
+    "figure_id": "slide-40"
+  },
+  {
+    "image_number": 41,
+    "image": "./assets/slide_41.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 41,
+    "figure_id": "slide-41"
+  },
+  {
+    "image_number": 42,
+    "image": "./assets/slide_42.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 42,
+    "figure_id": "slide-42"
+  },
+  {
+    "image_number": 43,
+    "image": "./assets/slide_43.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 43,
+    "figure_id": "slide-43"
+  },
+  {
+    "image_number": 44,
+    "image": "./assets/slide_44.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 44,
+    "figure_id": "slide-44"
+  },
+  {
+    "image_number": 45,
+    "image": "./assets/slide_45.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 45,
+    "figure_id": "slide-45"
+  },
+  {
+    "image_number": 46,
+    "image": "./assets/slide_46.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 46,
+    "figure_id": "slide-46"
+  },
+  {
+    "image_number": 47,
+    "image": "./assets/slide_47.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 47,
+    "figure_id": "slide-47"
+  },
+  {
+    "image_number": 48,
+    "image": "./assets/slide_48.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 48,
+    "figure_id": "slide-48"
+  },
+  {
+    "image_number": 49,
+    "image": "./assets/slide_49.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 49,
+    "figure_id": "slide-49"
+  },
+  {
+    "image_number": 50,
+    "image": "./assets/slide_50.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 50,
+    "figure_id": "slide-50"
+  },
+  {
+    "image_number": 51,
+    "image": "./assets/slide_51.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 51,
+    "figure_id": "slide-51"
+  },
+  {
+    "image_number": 52,
+    "image": "./assets/slide_52.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 52,
+    "figure_id": "slide-52"
+  },
+  {
+    "image_number": 53,
+    "image": "./assets/slide_53.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 53,
+    "figure_id": "slide-53"
+  },
+  {
+    "image_number": 54,
+    "image": "./assets/slide_54.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 54,
+    "figure_id": "slide-54"
+  },
+  {
+    "image_number": 55,
+    "image": "./assets/slide_55.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 55,
+    "figure_id": "slide-55"
+  },
+  {
+    "image_number": 56,
+    "image": "./assets/slide_56.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 56,
+    "figure_id": "slide-56"
+  },
+  {
+    "image_number": 57,
+    "image": "./assets/slide_57.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 57,
+    "figure_id": "slide-57"
+  },
+  {
+    "image_number": 58,
+    "image": "./assets/slide_58.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 58,
+    "figure_id": "slide-58"
+  },
+  {
+    "image_number": 59,
+    "image": "./assets/slide_59.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 59,
+    "figure_id": "slide-59"
+  },
+  {
+    "image_number": 60,
+    "image": "./assets/slide_60.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 60,
+    "figure_id": "slide-60"
+  },
+  {
+    "image_number": 61,
+    "image": "./assets/slide_61.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 61,
+    "figure_id": "slide-61"
+  },
+  {
+    "image_number": 62,
+    "image": "./assets/slide_62.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 62,
+    "figure_id": "slide-62"
+  },
+  {
+    "image_number": 63,
+    "image": "./assets/slide_63.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 63,
+    "figure_id": "slide-63"
+  },
+  {
+    "image_number": 64,
+    "image": "./assets/slide_64.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 64,
+    "figure_id": "slide-64"
+  },
+  {
+    "image_number": 65,
+    "image": "./assets/slide_65.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 65,
+    "figure_id": "slide-65"
+  },
+  {
+    "image_number": 66,
+    "image": "./assets/slide_66.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 66,
+    "figure_id": "slide-66"
+  },
+  {
+    "image_number": 67,
+    "image": "./assets/slide_67.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 67,
+    "figure_id": "slide-67"
+  },
+  {
+    "image_number": 68,
+    "image": "./assets/slide_68.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 68,
+    "figure_id": "slide-68"
+  },
+  {
+    "image_number": 69,
+    "image": "./assets/slide_69.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 69,
+    "figure_id": "slide-69"
+  },
+  {
+    "image_number": 70,
+    "image": "./assets/slide_70.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 70,
+    "figure_id": "slide-70"
+  },
+  {
+    "image_number": 71,
+    "image": "./assets/slide_71.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 71,
+    "figure_id": "slide-71"
+  },
+  {
+    "image_number": 72,
+    "image": "./assets/slide_72.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 72,
+    "figure_id": "slide-72"
+  },
+  {
+    "image_number": 73,
+    "image": "./assets/slide_73.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 73,
+    "figure_id": "slide-73"
+  },
+  {
+    "image_number": 74,
+    "image": "./assets/slide_74.png",
+    "pdf": "CT_FourierAnalysis .pdf",
+    "page": 74,
+    "figure_id": "slide-74"
+  },
+  {
+    "image_number": 75,
+    "image": "./assets/slide_75.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 1,
+    "figure_id": "slide-75"
+  },
+  {
+    "image_number": 76,
+    "image": "./assets/slide_76.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 2,
+    "figure_id": "slide-76"
+  },
+  {
+    "image_number": 77,
+    "image": "./assets/slide_77.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 3,
+    "figure_id": "slide-77"
+  },
+  {
+    "image_number": 78,
+    "image": "./assets/slide_78.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 4,
+    "figure_id": "slide-78"
+  },
+  {
+    "image_number": 79,
+    "image": "./assets/slide_79.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 5,
+    "figure_id": "slide-79"
+  },
+  {
+    "image_number": 80,
+    "image": "./assets/slide_80.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 6,
+    "figure_id": "slide-80"
+  },
+  {
+    "image_number": 81,
+    "image": "./assets/slide_81.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 7,
+    "figure_id": "slide-81"
+  },
+  {
+    "image_number": 82,
+    "image": "./assets/slide_82.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 8,
+    "figure_id": "slide-82"
+  },
+  {
+    "image_number": 83,
+    "image": "./assets/slide_83.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 9,
+    "figure_id": "slide-83"
+  },
+  {
+    "image_number": 84,
+    "image": "./assets/slide_84.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 10,
+    "figure_id": "slide-84"
+  },
+  {
+    "image_number": 85,
+    "image": "./assets/slide_85.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 11,
+    "figure_id": "slide-85"
+  },
+  {
+    "image_number": 86,
+    "image": "./assets/slide_86.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 12,
+    "figure_id": "slide-86"
+  },
+  {
+    "image_number": 87,
+    "image": "./assets/slide_87.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 13,
+    "figure_id": "slide-87"
+  },
+  {
+    "image_number": 88,
+    "image": "./assets/slide_88.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 14,
+    "figure_id": "slide-88"
+  },
+  {
+    "image_number": 89,
+    "image": "./assets/slide_89.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 15,
+    "figure_id": "slide-89"
+  },
+  {
+    "image_number": 90,
+    "image": "./assets/slide_90.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 16,
+    "figure_id": "slide-90"
+  },
+  {
+    "image_number": 91,
+    "image": "./assets/slide_91.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 17,
+    "figure_id": "slide-91"
+  },
+  {
+    "image_number": 92,
+    "image": "./assets/slide_92.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 18,
+    "figure_id": "slide-92"
+  },
+  {
+    "image_number": 93,
+    "image": "./assets/slide_93.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 19,
+    "figure_id": "slide-93"
+  },
+  {
+    "image_number": 94,
+    "image": "./assets/slide_94.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 20,
+    "figure_id": "slide-94"
+  },
+  {
+    "image_number": 95,
+    "image": "./assets/slide_95.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 21,
+    "figure_id": "slide-95"
+  },
+  {
+    "image_number": 96,
+    "image": "./assets/slide_96.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 22,
+    "figure_id": "slide-96"
+  },
+  {
+    "image_number": 97,
+    "image": "./assets/slide_97.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 23,
+    "figure_id": "slide-97"
+  },
+  {
+    "image_number": 98,
+    "image": "./assets/slide_98.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 24,
+    "figure_id": "slide-98"
+  },
+  {
+    "image_number": 99,
+    "image": "./assets/slide_99.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 25,
+    "figure_id": "slide-99"
+  },
+  {
+    "image_number": 100,
+    "image": "./assets/slide_100.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 26,
+    "figure_id": "slide-100"
+  },
+  {
+    "image_number": 101,
+    "image": "./assets/slide_101.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 27,
+    "figure_id": "slide-101"
+  },
+  {
+    "image_number": 102,
+    "image": "./assets/slide_102.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 28,
+    "figure_id": "slide-102"
+  },
+  {
+    "image_number": 103,
+    "image": "./assets/slide_103.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 29,
+    "figure_id": "slide-103"
+  },
+  {
+    "image_number": 104,
+    "image": "./assets/slide_104.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 30,
+    "figure_id": "slide-104"
+  },
+  {
+    "image_number": 105,
+    "image": "./assets/slide_105.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 31,
+    "figure_id": "slide-105"
+  },
+  {
+    "image_number": 106,
+    "image": "./assets/slide_106.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 32,
+    "figure_id": "slide-106"
+  },
+  {
+    "image_number": 107,
+    "image": "./assets/slide_107.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 33,
+    "figure_id": "slide-107"
+  },
+  {
+    "image_number": 108,
+    "image": "./assets/slide_108.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 34,
+    "figure_id": "slide-108"
+  },
+  {
+    "image_number": 109,
+    "image": "./assets/slide_109.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 35,
+    "figure_id": "slide-109"
+  },
+  {
+    "image_number": 110,
+    "image": "./assets/slide_110.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 36,
+    "figure_id": "slide-110"
+  },
+  {
+    "image_number": 111,
+    "image": "./assets/slide_111.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 37,
+    "figure_id": "slide-111"
+  },
+  {
+    "image_number": 112,
+    "image": "./assets/slide_112.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 38,
+    "figure_id": "slide-112"
+  },
+  {
+    "image_number": 113,
+    "image": "./assets/slide_113.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 39,
+    "figure_id": "slide-113"
+  },
+  {
+    "image_number": 114,
+    "image": "./assets/slide_114.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 40,
+    "figure_id": "slide-114"
+  },
+  {
+    "image_number": 115,
+    "image": "./assets/slide_115.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 41,
+    "figure_id": "slide-115"
+  },
+  {
+    "image_number": 116,
+    "image": "./assets/slide_116.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 42,
+    "figure_id": "slide-116"
+  },
+  {
+    "image_number": 117,
+    "image": "./assets/slide_117.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 43,
+    "figure_id": "slide-117"
+  },
+  {
+    "image_number": 118,
+    "image": "./assets/slide_118.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 44,
+    "figure_id": "slide-118"
+  },
+  {
+    "image_number": 119,
+    "image": "./assets/slide_119.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 45,
+    "figure_id": "slide-119"
+  },
+  {
+    "image_number": 120,
+    "image": "./assets/slide_120.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 46,
+    "figure_id": "slide-120"
+  },
+  {
+    "image_number": 121,
+    "image": "./assets/slide_121.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 47,
+    "figure_id": "slide-121"
+  },
+  {
+    "image_number": 122,
+    "image": "./assets/slide_122.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 48,
+    "figure_id": "slide-122"
+  },
+  {
+    "image_number": 123,
+    "image": "./assets/slide_123.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 49,
+    "figure_id": "slide-123"
+  },
+  {
+    "image_number": 124,
+    "image": "./assets/slide_124.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 50,
+    "figure_id": "slide-124"
+  },
+  {
+    "image_number": 125,
+    "image": "./assets/slide_125.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 51,
+    "figure_id": "slide-125"
+  },
+  {
+    "image_number": 126,
+    "image": "./assets/slide_126.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 52,
+    "figure_id": "slide-126"
+  },
+  {
+    "image_number": 127,
+    "image": "./assets/slide_127.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 53,
+    "figure_id": "slide-127"
+  },
+  {
+    "image_number": 128,
+    "image": "./assets/slide_128.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 54,
+    "figure_id": "slide-128"
+  },
+  {
+    "image_number": 129,
+    "image": "./assets/slide_129.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 55,
+    "figure_id": "slide-129"
+  },
+  {
+    "image_number": 130,
+    "image": "./assets/slide_130.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 56,
+    "figure_id": "slide-130"
+  },
+  {
+    "image_number": 131,
+    "image": "./assets/slide_131.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 57,
+    "figure_id": "slide-131"
+  },
+  {
+    "image_number": 132,
+    "image": "./assets/slide_132.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 58,
+    "figure_id": "slide-132"
+  },
+  {
+    "image_number": 133,
+    "image": "./assets/slide_133.png",
+    "pdf": "DT_FourierAnalysis.pdf",
+    "page": 59,
+    "figure_id": "slide-133"
+  },
+  {
+    "image_number": 134,
+    "image": "./assets/slide_134.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 1,
+    "figure_id": "slide-134"
+  },
+  {
+    "image_number": 135,
+    "image": "./assets/slide_135.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 2,
+    "figure_id": "slide-135"
+  },
+  {
+    "image_number": 136,
+    "image": "./assets/slide_136.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 3,
+    "figure_id": "slide-136"
+  },
+  {
+    "image_number": 137,
+    "image": "./assets/slide_137.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 4,
+    "figure_id": "slide-137"
+  },
+  {
+    "image_number": 138,
+    "image": "./assets/slide_138.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 5,
+    "figure_id": "slide-138"
+  },
+  {
+    "image_number": 139,
+    "image": "./assets/slide_139.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 6,
+    "figure_id": "slide-139"
+  },
+  {
+    "image_number": 140,
+    "image": "./assets/slide_140.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 7,
+    "figure_id": "slide-140"
+  },
+  {
+    "image_number": 141,
+    "image": "./assets/slide_141.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 8,
+    "figure_id": "slide-141"
+  },
+  {
+    "image_number": 142,
+    "image": "./assets/slide_142.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 9,
+    "figure_id": "slide-142"
+  },
+  {
+    "image_number": 143,
+    "image": "./assets/slide_143.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 10,
+    "figure_id": "slide-143"
+  },
+  {
+    "image_number": 144,
+    "image": "./assets/slide_144.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 11,
+    "figure_id": "slide-144"
+  },
+  {
+    "image_number": 145,
+    "image": "./assets/slide_145.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 12,
+    "figure_id": "slide-145"
+  },
+  {
+    "image_number": 146,
+    "image": "./assets/slide_146.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 13,
+    "figure_id": "slide-146"
+  },
+  {
+    "image_number": 147,
+    "image": "./assets/slide_147.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 14,
+    "figure_id": "slide-147"
+  },
+  {
+    "image_number": 148,
+    "image": "./assets/slide_148.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 15,
+    "figure_id": "slide-148"
+  },
+  {
+    "image_number": 149,
+    "image": "./assets/slide_149.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 16,
+    "figure_id": "slide-149"
+  },
+  {
+    "image_number": 150,
+    "image": "./assets/slide_150.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 17,
+    "figure_id": "slide-150"
+  },
+  {
+    "image_number": 151,
+    "image": "./assets/slide_151.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 18,
+    "figure_id": "slide-151"
+  },
+  {
+    "image_number": 152,
+    "image": "./assets/slide_152.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 19,
+    "figure_id": "slide-152"
+  },
+  {
+    "image_number": 153,
+    "image": "./assets/slide_153.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 20,
+    "figure_id": "slide-153"
+  },
+  {
+    "image_number": 154,
+    "image": "./assets/slide_154.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 21,
+    "figure_id": "slide-154"
+  },
+  {
+    "image_number": 155,
+    "image": "./assets/slide_155.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 22,
+    "figure_id": "slide-155"
+  },
+  {
+    "image_number": 156,
+    "image": "./assets/slide_156.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 23,
+    "figure_id": "slide-156"
+  },
+  {
+    "image_number": 157,
+    "image": "./assets/slide_157.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 24,
+    "figure_id": "slide-157"
+  },
+  {
+    "image_number": 158,
+    "image": "./assets/slide_158.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 25,
+    "figure_id": "slide-158"
+  },
+  {
+    "image_number": 159,
+    "image": "./assets/slide_159.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 26,
+    "figure_id": "slide-159"
+  },
+  {
+    "image_number": 160,
+    "image": "./assets/slide_160.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 27,
+    "figure_id": "slide-160"
+  },
+  {
+    "image_number": 161,
+    "image": "./assets/slide_161.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 28,
+    "figure_id": "slide-161"
+  },
+  {
+    "image_number": 162,
+    "image": "./assets/slide_162.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 29,
+    "figure_id": "slide-162"
+  },
+  {
+    "image_number": 163,
+    "image": "./assets/slide_163.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 30,
+    "figure_id": "slide-163"
+  },
+  {
+    "image_number": 164,
+    "image": "./assets/slide_164.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 31,
+    "figure_id": "slide-164"
+  },
+  {
+    "image_number": 165,
+    "image": "./assets/slide_165.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 32,
+    "figure_id": "slide-165"
+  },
+  {
+    "image_number": 166,
+    "image": "./assets/slide_166.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 33,
+    "figure_id": "slide-166"
+  },
+  {
+    "image_number": 167,
+    "image": "./assets/slide_167.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 34,
+    "figure_id": "slide-167"
+  },
+  {
+    "image_number": 168,
+    "image": "./assets/slide_168.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 35,
+    "figure_id": "slide-168"
+  },
+  {
+    "image_number": 169,
+    "image": "./assets/slide_169.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 36,
+    "figure_id": "slide-169"
+  },
+  {
+    "image_number": 170,
+    "image": "./assets/slide_170.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 37,
+    "figure_id": "slide-170"
+  },
+  {
+    "image_number": 171,
+    "image": "./assets/slide_171.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 38,
+    "figure_id": "slide-171"
+  },
+  {
+    "image_number": 172,
+    "image": "./assets/slide_172.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 39,
+    "figure_id": "slide-172"
+  },
+  {
+    "image_number": 173,
+    "image": "./assets/slide_173.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 40,
+    "figure_id": "slide-173"
+  },
+  {
+    "image_number": 174,
+    "image": "./assets/slide_174.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 41,
+    "figure_id": "slide-174"
+  },
+  {
+    "image_number": 175,
+    "image": "./assets/slide_175.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 42,
+    "figure_id": "slide-175"
+  },
+  {
+    "image_number": 176,
+    "image": "./assets/slide_176.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 43,
+    "figure_id": "slide-176"
+  },
+  {
+    "image_number": 177,
+    "image": "./assets/slide_177.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 44,
+    "figure_id": "slide-177"
+  },
+  {
+    "image_number": 178,
+    "image": "./assets/slide_178.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 45,
+    "figure_id": "slide-178"
+  },
+  {
+    "image_number": 179,
+    "image": "./assets/slide_179.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 46,
+    "figure_id": "slide-179"
+  },
+  {
+    "image_number": 180,
+    "image": "./assets/slide_180.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 47,
+    "figure_id": "slide-180"
+  },
+  {
+    "image_number": 181,
+    "image": "./assets/slide_181.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 48,
+    "figure_id": "slide-181"
+  },
+  {
+    "image_number": 182,
+    "image": "./assets/slide_182.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 49,
+    "figure_id": "slide-182"
+  },
+  {
+    "image_number": 183,
+    "image": "./assets/slide_183.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 50,
+    "figure_id": "slide-183"
+  },
+  {
+    "image_number": 184,
+    "image": "./assets/slide_184.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 51,
+    "figure_id": "slide-184"
+  },
+  {
+    "image_number": 185,
+    "image": "./assets/slide_185.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 52,
+    "figure_id": "slide-185"
+  },
+  {
+    "image_number": 186,
+    "image": "./assets/slide_186.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 53,
+    "figure_id": "slide-186"
+  },
+  {
+    "image_number": 187,
+    "image": "./assets/slide_187.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 54,
+    "figure_id": "slide-187"
+  },
+  {
+    "image_number": 188,
+    "image": "./assets/slide_188.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 55,
+    "figure_id": "slide-188"
+  },
+  {
+    "image_number": 189,
+    "image": "./assets/slide_189.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 56,
+    "figure_id": "slide-189"
+  },
+  {
+    "image_number": 190,
+    "image": "./assets/slide_190.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 57,
+    "figure_id": "slide-190"
+  },
+  {
+    "image_number": 191,
+    "image": "./assets/slide_191.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 58,
+    "figure_id": "slide-191"
+  },
+  {
+    "image_number": 192,
+    "image": "./assets/slide_192.png",
+    "pdf": "Intro_zTransforms.pdf",
+    "page": 59,
+    "figure_id": "slide-192"
+  }
+]

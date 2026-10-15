@@ -1,0 +1,103 @@
+[
+  {
+    "image": "assets/slide_01.png",
+    "source": "MachineLearningBasedIdentificationOfATwoTankSystemExample.mlx",
+    "saved_figure": 1,
+    "label": "tree-ensemble"
+  },
+  {
+    "image": "assets/slide_02.png",
+    "source": "MachineLearningBasedIdentificationOfATwoTankSystemExample.mlx",
+    "saved_figure": 2,
+    "label": "tree-ensemble"
+  },
+  {
+    "image": "assets/slide_03.png",
+    "source": "MachineLearningBasedIdentificationOfATwoTankSystemExample.mlx",
+    "saved_figure": 3,
+    "label": "tree-ensemble"
+  },
+  {
+    "image": "assets/slide_04.png",
+    "source": "MachineLearningBasedIdentificationOfATwoTankSystemExample.mlx",
+    "saved_figure": 4,
+    "label": "tree-ensemble"
+  },
+  {
+    "image": "assets/slide_05.png",
+    "source": "MachineLearningBasedIdentificationOfATwoTankSystemExample.mlx",
+    "saved_figure": 5,
+    "label": "tree-ensemble"
+  },
+  {
+    "image": "assets/slide_06.png",
+    "source": "Non Linear ARX  Two Tank Model.mlx",
+    "saved_figure": 1,
+    "label": "custom-regressors"
+  },
+  {
+    "image": "assets/slide_07.png",
+    "source": "Non Linear ARX  Two Tank Model.mlx",
+    "saved_figure": 2,
+    "label": "custom-regressors"
+  },
+  {
+    "image": "assets/slide_08.png",
+    "source": "Non Linear ARX  Two Tank Model.mlx",
+    "saved_figure": 3,
+    "label": "custom-regressors"
+  },
+  {
+    "image": "assets/slide_09.png",
+    "source": "Non Linear ARX  Two Tank Model.mlx",
+    "saved_figure": 4,
+    "label": "custom-regressors"
+  },
+  {
+    "image": "assets/slide_10.png",
+    "source": "Non Linear ARX  Two Tank Model.mlx",
+    "saved_figure": 5,
+    "label": "custom-regressors"
+  },
+  {
+    "image": "assets/slide_11.png",
+    "source": "idnlbbdemo_siso.zip::idnlbbdemo_siso/idnlbbdemo_siso.mlx",
+    "saved_figure": 1,
+    "label": "siso-tutorial"
+  },
+  {
+    "image": "assets/slide_12.png",
+    "source": "idnlbbdemo_siso.zip::idnlbbdemo_siso/idnlbbdemo_siso.mlx",
+    "saved_figure": 2,
+    "label": "siso-tutorial"
+  },
+  {
+    "image": "assets/slide_13.png",
+    "source": "idnlbbdemo_siso.zip::idnlbbdemo_siso/idnlbbdemo_siso.mlx",
+    "saved_figure": 3,
+    "label": "siso-tutorial"
+  },
+  {
+    "image": "assets/slide_14.png",
+    "source": "idnlbbdemo_siso.zip::idnlbbdemo_siso/idnlbbdemo_siso.mlx",
+    "saved_figure": 4,
+    "label": "siso-tutorial"
+  },
+  {
+    "image": "assets/slide_15.png",
+    "source": "idnlbbdemo_siso.zip::idnlbbdemo_siso/idnlbbdemo_siso.mlx",
+    "saved_figure": 6,
+    "label": "siso-tutorial"
+  },
+  {
+    "image": "assets/slide_16.png",
+    "source": "idnlbbdemo_siso.zip::idnlbbdemo_siso/idnlbbdemo_siso.mlx",
+    "saved_figure": 8,
+    "label": "siso-tutorial"
+  },
+  {
+    "image": "assets/slide_17.png",
+    "source": "idnlbbdemo_siso.zip::idnlbbdemo_siso/TwoTankBB.png",
+    "label": "two-tank-diagram"
+  }
+]

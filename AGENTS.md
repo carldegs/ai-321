@@ -23,3 +23,9 @@
 - Keep Matplotlib title and axis-label math to simple `$...$` expressions. Put complex environments such as `aligned` and `cases` only in Markdown cells.
 - When editing an `.ipynb` file as raw JSON, escape every backslash: write `\\frac` for `\frac` and `\\\\` for a LaTeX line break. In Jupyter's Markdown editor, use normal single backslashes.
 - Before submission, export from the exercise folder with `uv run jupyter nbconvert --to pdf me-XX.ipynb`, then visually check the PDF for clipped equations, tables, and figures.
+
+## Relevant documentation websites
+
+- [Matlab Documentation](https://www.mathworks.com/help/matlab/index.html)
+- [System ID Documentation Reference List](https://www.mathworks.com/help/ident/referencelist.html?type=app)
+- [Statistics and Machine Learning Toolbox Documentation](https://www.mathworks.com/products/statistics.html)

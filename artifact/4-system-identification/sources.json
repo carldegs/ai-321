@@ -1,0 +1,452 @@
+[
+  {
+    "image_number": 1,
+    "image": "./assets/slide_01.png",
+    "figure_id": "slide-01",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 1,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 2,
+    "image": "./assets/slide_02.png",
+    "figure_id": "slide-02",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 2,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 3,
+    "image": "./assets/slide_03.png",
+    "figure_id": "slide-03",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 3,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 4,
+    "image": "./assets/slide_04.png",
+    "figure_id": "slide-04",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 4,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 5,
+    "image": "./assets/slide_05.png",
+    "figure_id": "slide-05",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 5,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 6,
+    "image": "./assets/slide_06.png",
+    "figure_id": "slide-06",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 6,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 7,
+    "image": "./assets/slide_07.png",
+    "figure_id": "slide-07",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 7,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 8,
+    "image": "./assets/slide_08.png",
+    "figure_id": "slide-08",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 8,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 9,
+    "image": "./assets/slide_09.png",
+    "figure_id": "slide-09",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 9,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 10,
+    "image": "./assets/slide_10.png",
+    "figure_id": "slide-10",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 10,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 11,
+    "image": "./assets/slide_11.png",
+    "figure_id": "slide-11",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 11,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 12,
+    "image": "./assets/slide_12.png",
+    "figure_id": "slide-12",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 12,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 13,
+    "image": "./assets/slide_13.png",
+    "figure_id": "slide-13",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 13,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 14,
+    "image": "./assets/slide_14.png",
+    "figure_id": "slide-14",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 14,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 15,
+    "image": "./assets/slide_15.png",
+    "figure_id": "slide-15",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 15,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 16,
+    "image": "./assets/slide_16.png",
+    "figure_id": "slide-16",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 16,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 17,
+    "image": "./assets/slide_17.png",
+    "figure_id": "slide-17",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 17,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 18,
+    "image": "./assets/slide_18.png",
+    "figure_id": "slide-18",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 18,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 19,
+    "image": "./assets/slide_19.png",
+    "figure_id": "slide-19",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 19,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 20,
+    "image": "./assets/slide_20.png",
+    "figure_id": "slide-20",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 20,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 21,
+    "image": "./assets/slide_21.png",
+    "figure_id": "slide-21",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 21,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 22,
+    "image": "./assets/slide_22.png",
+    "figure_id": "slide-22",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 22,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 23,
+    "image": "./assets/slide_23.png",
+    "figure_id": "slide-23",
+    "deck": "PEM",
+    "pdf": "notes/4-System Identification/System Identification (PEM).pdf",
+    "page": 23,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 24,
+    "image": "./assets/slide_24.png",
+    "figure_id": "slide-24",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 1,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 25,
+    "image": "./assets/slide_25.png",
+    "figure_id": "slide-25",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 2,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 26,
+    "image": "./assets/slide_26.png",
+    "figure_id": "slide-26",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 3,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 27,
+    "image": "./assets/slide_27.png",
+    "figure_id": "slide-27",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 4,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 28,
+    "image": "./assets/slide_28.png",
+    "figure_id": "slide-28",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 5,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 29,
+    "image": "./assets/slide_29.png",
+    "figure_id": "slide-29",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 6,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 30,
+    "image": "./assets/slide_30.png",
+    "figure_id": "slide-30",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 7,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 31,
+    "image": "./assets/slide_31.png",
+    "figure_id": "slide-31",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 8,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 32,
+    "image": "./assets/slide_32.png",
+    "figure_id": "slide-32",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 9,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 33,
+    "image": "./assets/slide_33.png",
+    "figure_id": "slide-33",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 10,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 34,
+    "image": "./assets/slide_34.png",
+    "figure_id": "slide-34",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 11,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 35,
+    "image": "./assets/slide_35.png",
+    "figure_id": "slide-35",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 12,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 36,
+    "image": "./assets/slide_36.png",
+    "figure_id": "slide-36",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 13,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 37,
+    "image": "./assets/slide_37.png",
+    "figure_id": "slide-37",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 14,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 38,
+    "image": "./assets/slide_38.png",
+    "figure_id": "slide-38",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 15,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 39,
+    "image": "./assets/slide_39.png",
+    "figure_id": "slide-39",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 16,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 40,
+    "image": "./assets/slide_40.png",
+    "figure_id": "slide-40",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 17,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 41,
+    "image": "./assets/slide_41.png",
+    "figure_id": "slide-41",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 18,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 42,
+    "image": "./assets/slide_42.png",
+    "figure_id": "slide-42",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 19,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 43,
+    "image": "./assets/slide_43.png",
+    "figure_id": "slide-43",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 20,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 44,
+    "image": "./assets/slide_44.png",
+    "figure_id": "slide-44",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 21,
+    "width": 1734,
+    "height": 975
+  },
+  {
+    "image_number": 45,
+    "image": "./assets/slide_45.png",
+    "figure_id": "slide-45",
+    "deck": "SIM",
+    "pdf": "notes/4-System Identification/System Identification (SIM).pdf",
+    "page": 22,
+    "width": 1734,
+    "height": 975
+  }
+]

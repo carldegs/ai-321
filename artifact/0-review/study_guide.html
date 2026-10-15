@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 321 | From Signals to Time-Series Models</title>
+<style>
+:root { --bg:#f5f7fb; --text:#17243b; --accent:#175cc4; --warn:#a44908; --paper:#fff; --muted:#53647b; --line:#dbe3ef; }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:2rem; }
+body { margin:0; background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,sans-serif; line-height:1.75; }
+a { color:var(--accent); text-underline-offset:3px; }
+a:focus-visible,button:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:4px; }
+.skip { position:absolute; left:1rem; top:-5rem; background:white; padding:1rem; z-index:10; }
+.skip:focus { top:1rem; }
+header { background:#102747; color:#f4f8ff; padding:4rem max(5vw,calc((100vw - 1200px)/2)); }
+header p { max-width:78ch; color:#d2dff1; }
+.eyebrow { text-transform:uppercase; letter-spacing:.16em; font-size:.78rem; font-weight:750; }
+h1 { font-size:clamp(2rem,5vw,3.8rem); line-height:1.14; letter-spacing:-.045em; max-width:21ch; margin:.7rem 0 1.2rem; }
+h2 { line-height:1.25; font-size:clamp(1.5rem,3vw,2.1rem); letter-spacing:-.025em; margin:0 0 1.4rem; }
+h3 { font-size:1rem; margin:0 0 .4rem; }
+.shell { display:grid; grid-template-columns:220px minmax(0,1fr); gap:2.5rem; max-width:1320px; margin:auto; padding:2.5rem 2rem; }
+nav { align-self:start; position:sticky; top:1.5rem; font-size:.88rem; }
+nav ol { padding-left:1.3rem; }
+nav li { padding:.35rem 0; }
+main { min-width:0; }
+section { margin-bottom:2rem; padding:2rem; background:var(--paper); border:1px solid var(--line); border-radius:16px; box-shadow:0 8px 30px #15274605; }
+section > p { max-width:88ch; }
+.slide-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1rem; margin:1.8rem 0; }
+figure { margin:0; overflow:hidden; border:1px solid var(--line); border-radius:10px; background:#f8faff; }
+.slide-button { display:block; width:100%; border:0; padding:0; background:white; cursor:zoom-in; }
+figure img { width:100%; height:auto; display:block; }
+figcaption { padding:.8rem 1rem; font-size:.8rem; color:var(--muted); line-height:1.6; }
+.study,.exam { margin:1rem 0; padding:1.1rem 1.3rem; border-radius:0 9px 9px 0; }
+.study { border-left:4px solid var(--accent); background:#edf4ff; }
+.exam { border-left:4px solid var(--warn); background:#fff5e9; }
+.study p,.exam p { margin:.3rem 0; }
+.math { display:block; max-width:100%; overflow-x:auto; padding:.25rem 0; }
+mjx-container { max-width:100%; min-width:0 !important; overflow-x:auto; overflow-y:hidden; }
+mjx-container:not([display="true"]) { display:inline-block; vertical-align:middle; }
+p,li { overflow-wrap:anywhere; }
+code { font-family:ui-monospace,monospace; font-size:.9em; background:#e9eef7; padding:.12rem .3rem; border-radius:4px; }
+details { border:1px solid var(--line); border-radius:9px; padding:1rem 1.2rem; margin:1rem 0; }
+summary { font-weight:650; cursor:pointer; }
+details[open] summary { margin-bottom:1rem; }
+footer { padding:1rem 0 3rem; font-size:.88rem; color:var(--muted); }
+dialog { width:100vw; height:100dvh; max-width:none; max-height:none; margin:0; border:0; padding:3.8rem 1rem 1rem; background:#071326f5; color:white; }
+dialog::backdrop { background:#071326; }
+.viewer-content { display:flex; flex-direction:column; align-items:center; justify-content:center; height:100%; }
+#viewer-image { display:block; max-width:100%; max-height:calc(100dvh - 9rem); object-fit:contain; }
+#viewer-caption { max-width:100ch; text-align:center; font-size:.85rem; }
+#close-viewer { position:absolute; right:1rem; top:.8rem; padding:.6rem 1rem; border:1px solid #8295af; border-radius:7px; background:#fff; color:#102747; cursor:pointer; font:inherit; }
+.status { font-size:.84rem; color:var(--muted); }
+@media(max-width:900px) { .shell { display:block; padding:1rem; } nav { position:static; padding:.7rem; } nav ol { columns:2; } section { padding:1.3rem; } }
+@media(max-width:420px) { .slide-grid { grid-template-columns:minmax(0,1fr); } nav ol { columns:1; } }
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+@media print { nav,.skip,dialog { display:none; } .shell { display:block; padding:0; } header { padding:1rem; } section { box-shadow:none; break-inside:auto; } figure,.study,.exam,details { break-inside:avoid; } .slide-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+
+.slide-reference { display:block; margin-top:.7rem; font-size:.83rem; color:var(--muted); }
+.slide-reference a { white-space:nowrap; }
+.tutorial-note { display:block; margin-top:.4rem; font-size:.83rem; color:var(--muted); }
+figure[id] { scroll-margin-top:2rem; }
+figure:target { outline:3px solid var(--accent); outline-offset:4px; }
+
+/* study-path styles */
+.journey-nav { position:static; top:auto; display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); gap:1rem; align-items:stretch; width:100%; margin:2rem 0 0; font-size:.88rem; }
+.journey-nav a { display:flex; flex-direction:column; justify-content:center; gap:.35rem; min-width:0; padding:1rem 1.1rem; border:1px solid var(--line,#dbe3ef); border-radius:10px; text-decoration:none; color:var(--accent,#175cc4); background:#f5f8ff; overflow-wrap:anywhere; }
+.journey-nav a:hover { border-color:var(--accent,#175cc4); background:#eaf2ff; }
+.journey-nav a:focus-visible { outline:3px solid var(--accent,#175cc4); outline-offset:4px; }
+.journey-label { display:block; font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; font-weight:750; }
+.journey-title { display:block; font-size:1rem; line-height:1.4; font-weight:700; }
+.journey-teaser { display:block; font-size:.82rem; line-height:1.65; color:#53647b; }
+.journey-library { text-align:center; align-items:center; }
+header .journey-nav a { background:#19395f; border-color:#557195; color:#f4f8ff; }
+header .journey-nav a:hover { background:#244a76; border-color:#b4ceef; }
+header .journey-teaser { color:#d2dff1; }
+@media(max-width:700px) { .journey-nav { grid-template-columns:minmax(0,1fr); } .journey-library { order:-1; } }
+@media print { .journey-nav { display:grid !important; grid-template-columns:1fr 1fr; } .journey-library { display:none !important; } }
+/* end study-path styles */
+
+/* simple header navigation */
+header:has(.header-links) { padding-top:1.25rem; }
+.header-links { position:static; top:auto; display:grid; grid-template-columns:1fr 1fr 1fr; align-items:center; gap:1rem; margin:0 0 2.5rem; width:100%; font-size:.9rem; line-height:1.6; }
+.header-links a { display:inline; padding:.25rem 0; border:0; border-radius:0; background:none; color:#d2dff1; text-decoration:none; font-weight:600; }
+.header-links a:first-child { justify-self:start; }
+.header-links a:nth-child(2) { justify-self:center; }
+.header-links a:last-child { justify-self:end; }
+.header-links a:hover { color:#fff; text-decoration:underline; text-underline-offset:4px; }
+.header-links a:focus-visible { outline:2px solid #b4ceef; outline-offset:5px; }
+@media print { .header-links { display:none; } }
+/* end simple header navigation */
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to study guide</a>
+<header><nav class="header-links" aria-label="Header reading navigation"><a href="../index.html" title="Previous: Study library">← Previous</a><a href="../index.html" title="Home: study library">Home</a><a href="../1-lti-and-random-process/study_guide.html" title="Next: LTI Systems &amp; Random Processes">Next →</a></nav>
+<div class="eyebrow">AI 321 / Review collection / 57 source slides</div>
+<h1>From Signals to Time-Series Models</h1>
+<p>A connected study guide to Rhandley D. Cajote's <em>Introduction to Time-Series Analysis</em> and <em>System Models of Time-Series</em>, both dated August 28, 2024. Read each explanation first; use the slides below it as evidence, then test the reasoning.</p>
+<p>Seven themes connect operators, physical dynamics, stochastic filters, and forecasting. Derivations and worked examples extend the slides; explicit correction callouts distinguish refinements from the original material. Follow the slide-evidence links in the explanations to jump to the supporting slide. Tutorial extensions identify added reasoning. Click a slide to enlarge it; press Escape to close.</p>
+</header>
+<div class="shell">
+<nav aria-label="Study guide chapters">
+<p><a href="../index.html">← All study guides</a></p>
+<strong>On this page</strong>
+<ol>
+<li><a href="#purpose">Modeling objectives</a></li>
+<li><a href="#operators">Signals and operators</a></li>
+<li><a href="#filters">Impulse responses and filters</a></li>
+<li><a href="#equations">Equations and realizations</a></li>
+<li><a href="#state">State and multivariate models</a></li>
+<li><a href="#arma">AR, MA, ARMA, ARIMA</a></li>
+<li><a href="#transfer">Inputs, delays, and noise</a></li>
+<li><a href="#assessment">Check your understanding</a></li>
+<li><a href="#sources">Sources and extraction</a></li>
+</ol>
+<p class="status">Intro p1-40 → images 01-40.<br>Models p1-17 → images 41-57.</p>
+</nav>
+<main id="main">
+<section id="purpose" aria-labelledby="purpose-title">
+<h2 id="purpose-title">1. Model the dependence, then choose the task</h2>
+
+<p>A time series is an ordered sequence whose observations can carry information about later observations. The scientific task is to characterize this dependence through a model of the generating mechanism, rather than merely fit a curve to unordered points. The introductory input-system-output diagram separates an external excitation from the transformation and its observed response. Forecasting uses the observed past to infer the future; system identification estimates the mechanism linking inputs to outputs; intervention analysis asks how a specified event changes the trajectory. Joint modeling of related variables can expose delayed interactions that separate univariate analyses miss, although predictive association alone does not establish causality.<span class="slide-reference">Slide evidence: <a href="#slide-03">Intro slide 3</a>, <a href="#slide-04">Intro slide 4</a>, <a href="#slide-05">Intro slide 5</a>, <a href="#slide-07">Intro slide 7</a>, <a href="#slide-08">Intro slide 8</a>, <a href="#slide-09">Intro slide 9</a>.</span></p>
+<p>These tasks require distinct assumptions. A deterministic signal is specified without random uncertainty; a stochastic process is a collection of random variables indexed by time. Weak stationarity requires a constant finite mean and covariance depending only on lag:
+<span class="math">\[\mathbb E[z_t]=\mu,\qquad \gamma(k)=\operatorname{Cov}(z_t,z_{t-k}),\qquad \gamma(0)&lt;\infty.\]</span>
+Here \(z_t\) is the random observation at integer time \(t\), \(\mu\) its mean, \(k\) a lag, and \(\gamma\) the autocovariance function. A system's time invariance concerns its response to a shifted input; a process's stationarity concerns its probability structure. Neither property is synonymous with the other. A dynamic system has memory and can still be time-invariant, as a constant-coefficient recursion demonstrates.<span class="slide-reference">Slide evidence: <a href="#slide-04">Intro slide 4</a>, <a href="#slide-39">Intro slide 39</a>.</span><span class="tutorial-note">Tutorial extension: The formal weak-stationarity definition and the distinction between stationarity and time invariance are tutorial clarifications.</span></p>
+<p>Forecasting is therefore a cycle of specification, parameter estimation, and diagnostic checking, with an uncertainty statement attached to each prediction. A binary intervention can encode a one-time pulse or a persistent step; the system's impulse response determines whether its output effect disappears, decays, or persists. Control instead selects an input to steer the output, potentially through feedback; the deck identifies this application but excludes control design from the course scope. The final classification slide should be read as several independent axes: linearity, time variation, time domain, input/output dimension, and stochastic stationarity.<span class="slide-reference">Slide evidence: <a href="#slide-06">Intro slide 6</a>, <a href="#slide-08">Intro slide 8</a>, <a href="#slide-10">Intro slide 10</a>, <a href="#slide-39">Intro slide 39</a>.</span><span class="tutorial-note">Tutorial extension: Pulse-versus-step encoding and the response interpretation extend the intervention discussion.</span></p>
+<div class="slide-grid">
+<figure id="slide-01"><button class="slide-button" type="button" aria-label="Enlarge Intro page 1"><img src="./assets/slide_01.png" alt="Intro page 1: Course identity and lecture context." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p1 · image 01.</strong> Course identity and lecture context.</figcaption></figure>
+<figure id="slide-02"><button class="slide-button" type="button" aria-label="Enlarge Intro page 2"><img src="./assets/slide_02.png" alt="Intro page 2: Introductory roadmap for the systems review." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p2 · image 02.</strong> Introductory roadmap for the systems review.</figcaption></figure>
+<figure id="slide-03"><button class="slide-button" type="button" aria-label="Enlarge Intro page 3"><img src="./assets/slide_03.png" alt="Intro page 3: Temporal dependence motivates analysis and identification." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p3 · image 03.</strong> Temporal dependence motivates analysis and identification.</figcaption></figure>
+<figure id="slide-04"><button class="slide-button" type="button" aria-label="Enlarge Intro page 4"><img src="./assets/slide_04.png" alt="Intro page 4: Input-system-output structure and modeling assumptions." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p4 · image 04.</strong> Input-system-output structure and modeling assumptions.</figcaption></figure>
+<figure id="slide-05"><button class="slide-button" type="button" aria-label="Enlarge Intro page 5"><img src="./assets/slide_05.png" alt="Intro page 5: Five application areas share a dynamic modeling foundation." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p5 · image 05.</strong> Five application areas share a dynamic modeling foundation.</figcaption></figure>
+<figure id="slide-06"><button class="slide-button" type="button" aria-label="Enlarge Intro page 6"><img src="./assets/slide_06.png" alt="Intro page 6: Forecast specification, estimation, and diagnostics." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p6 · image 06.</strong> Forecast specification, estimation, and diagnostics.</figcaption></figure>
+<figure id="slide-07"><button class="slide-button" type="button" aria-label="Enlarge Intro page 7"><img src="./assets/slide_07.png" alt="Intro page 7: Transfer estimation under measurement uncertainty." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p7 · image 07.</strong> Transfer estimation under measurement uncertainty.</figcaption></figure>
+<figure id="slide-08"><button class="slide-button" type="button" aria-label="Enlarge Intro page 8"><img src="./assets/slide_08.png" alt="Intro page 8: Interventions enter the model as external events." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p8 · image 08.</strong> Interventions enter the model as external events.</figcaption></figure>
+<figure id="slide-09"><button class="slide-button" type="button" aria-label="Enlarge Intro page 9"><img src="./assets/slide_09.png" alt="Intro page 9: Joint analysis captures relationships between series." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p9 · image 09.</strong> Joint analysis captures relationships between series.</figcaption></figure>
+<figure id="slide-10"><button class="slide-button" type="button" aria-label="Enlarge Intro page 10"><img src="./assets/slide_10.png" alt="Intro page 10: Feedback and feedforward control are contextual applications." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p10 · image 10.</strong> Feedback and feedforward control are contextual applications.</figcaption></figure>
+<figure id="slide-39"><button class="slide-button" type="button" aria-label="Enlarge Intro page 39"><img src="./assets/slide_39.png" alt="Intro page 39: Signal and system classifications are separate dimensions." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p39 · image 39.</strong> Signal and system classifications are separate dimensions.</figcaption></figure>
+<figure id="slide-41"><button class="slide-button" type="button" aria-label="Enlarge Models page 1"><img src="./assets/slide_41.png" alt="Models page 1: Second deck: System Models of Time-Series." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p1 · image 41.</strong> Second deck: System Models of Time-Series.</figcaption></figure>
+<figure id="slide-42"><button class="slide-button" type="button" aria-label="Enlarge Models page 2"><img src="./assets/slide_42.png" alt="Models page 2: Model families developed in the second deck." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p2 · image 42.</strong> Model families developed in the second deck.</figcaption></figure>
+</div>
+<div class="study">
+<p class="tutorial-note">Worked example added for this guide; its foundations are <a href="#slide-03">Intro slide 3</a>, <a href="#slide-04">Intro slide 4</a>, <a href="#slide-05">Intro slide 5</a>, <a href="#slide-07">Intro slide 7</a>, <a href="#slide-08">Intro slide 8</a>, <a href="#slide-09">Intro slide 9</a>.</p>
+<h3>Study trace · intervention versus forecast</h3>
+<p>First encode a campaign as a pulse if it occurs only once, or a step if a new regime begins. Next pass that input through the dynamic model. Finally forecast the remaining stochastic component and combine both contributions. Comparing the predicted paths with and without the intervention isolates the model's proposed effect; a causal interpretation requires assumptions about competing influences.</p>
+</div>
+<div class="exam">
+<h3>Exam pitfall · dynamic does not mean time-varying</h3>
+<p>A constant-coefficient system can retain past inputs while responding identically at every date. Conversely, a stable time-invariant filter does not make every possible input stationary. Stationarity must be checked for the resulting stochastic process under the stated input and initialization assumptions.</p>
+</div>
+</section>
+<section id="operators" aria-labelledby="operators-title">
+<h2 id="operators-title">2. Signals are functions; systems are operators</h2>
+
+<p>A signal maps an index to an amplitude; a system maps an entire admissible signal to another signal. Continuous time uses a real index, while discrete time uses an integer index. Uniform sampling creates \(x[n]=x_c(t_0+nT)\), where \(x_c\) is a continuous-time signal, \(t_0\) the initial sampling time, \(T&gt;0\) the sampling interval, and \(n\) an integer. Discrete time does not imply quantized amplitude. In \(y=H[x]\), \(H\) is an operator and the brackets do not generally denote scalar multiplication. The derivative block illustrates this distinction: each output value depends on how the input changes around the corresponding time.<span class="slide-reference">Slide evidence: <a href="#slide-12">Intro slide 12</a>, <a href="#slide-13">Intro slide 13</a>, <a href="#slide-14">Intro slide 14</a>, <a href="#slide-15">Intro slide 15</a>.</span></p>
+<p>The delay algebra makes temporal dependence manipulable:
+<span class="math">\[Bz_t=z_{t-1},\qquad B^m z_t=z_{t-m},\qquad F=B^{-1},\qquad \nabla z_t=(1-B)z_t.\]</span>
+Here \(B\) is the backward shift, \(F\) the forward shift on sequences where the inverse is defined, \(m\) a positive integer, and \(\nabla\) the backward difference. For an operator polynomial \(P(B)=\sum_{j=0}^{q}c_jB^j\), the integer \(q\) is its degree and \(c_j\) are fixed weights; applying it produces \(P(B)z_t=\sum_{j=0}^{q}c_jz_{t-j}\). Constant-coefficient delay polynomials commute under well-defined operations. An inverse polynomial may represent an infinite filter, and its existence as a causal stable filter requires more than a formal division symbol.<span class="slide-reference">Slide evidence: <a href="#slide-16">Intro slide 16</a>, <a href="#slide-17">Intro slide 17</a>.</span><span class="tutorial-note">Tutorial extension: The general polynomial and cautions about operator inversion extend the slide notation.</span></p>
+<p>Linearity and time invariance are two separate tests:
+<span class="math">\[H[\alpha x_1+\beta x_2]=\alpha H[x_1]+\beta H[x_2],\qquad H[S_\ell x]=S_\ell H[x].\]</span>
+The signals \(x_1,x_2\) are arbitrary admissible inputs, \(\alpha,\beta\) scalars, and \(S_\ell x[n]=x[n-\ell]\) shifts a sequence by integer \(\ell\). In continuous time the same test uses a real shift. The paired diagrams move a gain or an adder across a linear block without changing the output; the LTI diagram also moves delays across it. A fixed gain, sum, or delay is linear; multiplication of two varying inputs is jointly nonlinear. Multiplication by a prescribed carrier is linear in the signal being modulated, but generally time-varying. This qualification improves the slide's blanket classification of modulation as nonlinear.<span class="slide-reference">Slide evidence: <a href="#slide-18">Intro slide 18</a>, <a href="#slide-19">Intro slide 19</a>, <a href="#slide-20">Intro slide 20</a>, <a href="#slide-21">Intro slide 21</a>, <a href="#slide-22">Intro slide 22</a>, <a href="#slide-23">Intro slide 23</a>.</span><span class="tutorial-note">Tutorial extension: The fixed-carrier modulation qualification corrects the overly broad nonlinear classification on Intro slide 20.</span></p>
+<div class="slide-grid">
+<figure id="slide-12"><button class="slide-button" type="button" aria-label="Enlarge Intro page 12"><img src="./assets/slide_12.png" alt="Intro page 12: Examples interpret a signal as a measured function." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p12 · image 12.</strong> Examples interpret a signal as a measured function.</figcaption></figure>
+<figure id="slide-13"><button class="slide-button" type="button" aria-label="Enlarge Intro page 13"><img src="./assets/slide_13.png" alt="Intro page 13: Domains distinguish continuous, sampled, and integer-indexed signals." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p13 · image 13.</strong> Domains distinguish continuous, sampled, and integer-indexed signals.</figcaption></figure>
+<figure id="slide-14"><button class="slide-button" type="button" aria-label="Enlarge Intro page 14"><img src="./assets/slide_14.png" alt="Intro page 14: A system maps signal functions to signal functions." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p14 · image 14.</strong> A system maps signal functions to signal functions.</figcaption></figure>
+<figure id="slide-15"><button class="slide-button" type="button" aria-label="Enlarge Intro page 15"><img src="./assets/slide_15.png" alt="Intro page 15: The derivative block is an operator, not a scalar gain." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p15 · image 15.</strong> The derivative block is an operator, not a scalar gain.</figcaption></figure>
+<figure id="slide-16"><button class="slide-button" type="button" aria-label="Enlarge Intro page 16"><img src="./assets/slide_16.png" alt="Intro page 16: Backward, forward, and difference operators." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p16 · image 16.</strong> Backward, forward, and difference operators.</figcaption></figure>
+<figure id="slide-17"><button class="slide-button" type="button" aria-label="Enlarge Intro page 17"><img src="./assets/slide_17.png" alt="Intro page 17: An operator series weights delayed random shocks." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p17 · image 17.</strong> An operator series weights delayed random shocks.</figcaption></figure>
+<figure id="slide-18"><button class="slide-button" type="button" aria-label="Enlarge Intro page 18"><img src="./assets/slide_18.png" alt="Intro page 18: Homogeneity and additivity define linearity." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p18 · image 18.</strong> Homogeneity and additivity define linearity.</figcaption></figure>
+<figure id="slide-19"><button class="slide-button" type="button" aria-label="Enlarge Intro page 19"><img src="./assets/slide_19.png" alt="Intro page 19: Equivalent gain and sum diagrams visualize linearity." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p19 · image 19.</strong> Equivalent gain and sum diagrams visualize linearity.</figcaption></figure>
+<figure id="slide-20"><button class="slide-button" type="button" aria-label="Enlarge Intro page 20"><img src="./assets/slide_20.png" alt="Intro page 20: Examples require careful choice of input variables." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p20 · image 20.</strong> Examples require careful choice of input variables.</figcaption></figure>
+<figure id="slide-21"><button class="slide-button" type="button" aria-label="Enlarge Intro page 21"><img src="./assets/slide_21.png" alt="Intro page 21: Shifted inputs define the time-invariance test." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p21 · image 21.</strong> Shifted inputs define the time-invariance test.</figcaption></figure>
+<figure id="slide-22"><button class="slide-button" type="button" aria-label="Enlarge Intro page 22"><img src="./assets/slide_22.png" alt="Intro page 22: LTI blocks commute with both gains and delays." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p22 · image 22.</strong> LTI blocks commute with both gains and delays.</figcaption></figure>
+<figure id="slide-23"><button class="slide-button" type="button" aria-label="Enlarge Intro page 23"><img src="./assets/slide_23.png" alt="Intro page 23: Adders, products, delays, derivatives, and integrators." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p23 · image 23.</strong> Adders, products, delays, derivatives, and integrators.</figcaption></figure>
+</div>
+<div class="study">
+<p class="tutorial-note">Worked example added for this guide; its foundations are <a href="#slide-12">Intro slide 12</a>, <a href="#slide-13">Intro slide 13</a>, <a href="#slide-14">Intro slide 14</a>, <a href="#slide-15">Intro slide 15</a>.</p>
+<h3>Study trace · perform both system tests</h3>
+<p>For \(H[x][n]=n\,x[n]\), scaling and summing inputs commute with multiplication by \(n\), so the system is linear. However, \(H[S_\ell x][n]=n x[n-\ell]\), while \(S_\ell H[x][n]=(n-\ell)x[n-\ell]\). These differ for a nonzero shift, so it is time-varying. For \(H[x][n]=x[n]+c\), a fixed nonzero offset \(c\) violates the zero-input test and makes the map affine.</p>
+</div>
+<div class="exam">
+<h3>Exam pitfall · a delay symbol is not a transform variable</h3>
+<p>In a sequence equation, \(B\) acts on the sequence. Under a bilateral Z-transform, a unit delay corresponds to multiplication by \(z^{-1}\), where \(z\) is the complex transform variable. Finite records need a boundary convention; advancing the first or last sample does not magically recover unobserved data.</p>
+</div>
+</section>
+<section id="filters" aria-labelledby="filters-title">
+<h2 id="filters-title">3. Impulse responses unify physical and stochastic filters</h2>
+
+<p>An impulse decomposes a discrete signal into weighted time shifts. Linearity lets a system respond separately to those components, and time invariance identifies each component response with a shifted impulse response. Thus, for a system initially at rest,
+<span class="math">\[y[n]=\sum_{k=-\infty}^{\infty}x[k]h[n-k],\qquad y(t)=\int_{-\infty}^{\infty}x(\tau)h(t-\tau)\,d\tau.\]</span>
+Here \(x\) is the input, \(y\) the output, \(h\) the impulse response, \(n,k\) integer indices, and \(t,\tau\) continuous times. The discrete impulse is one at zero and zero elsewhere; the continuous Dirac impulse is a generalized function with unit integral. The convolution diagram condenses all weighted, shifted responses into a single block. A causal response is zero before the impulse occurs.<span class="slide-reference">Slide evidence: <a href="#slide-11">Intro slide 11</a>, <a href="#slide-34">Intro slide 34</a>, <a href="#slide-35">Intro slide 35</a>.</span><span class="tutorial-note">Tutorial extension: The impulse-decomposition argument and initial-rest qualification expand the convolution statements.</span></p>
+<p>The second deck applies exactly this mechanism to random shocks:
+<span class="math">\[z_t=\mu+\sum_{j=0}^{\infty}\psi_j a_{t-j},\qquad \psi_0=1,\qquad \operatorname{Var}(z_t)=\sigma_a^2\sum_{j=0}^{\infty}\psi_j^2.\]</span>
+Here \(a_t\) is zero-mean white noise with variance \(\sigma_a^2\), \(\mu\) the level, \(\psi_j\) fixed impulse-response weights, and \(j\) the shock's age. Independent identically distributed shocks, as assumed in the slides, are stronger than merely uncorrelated white noise. Shared past shocks create output dependence even when the shocks themselves are independent. Under square summability and a stationary infinite-past construction, the variance exists and the process is weakly stationary. Absolute summability, \(\sum_j|\psi_j|&lt;\infty\), additionally gives bounded-input bounded-output stability and is sufficient for square summability.<span class="slide-reference">Slide evidence: <a href="#slide-43">Models slide 3</a>, <a href="#slide-44">Models slide 4</a>, <a href="#slide-45">Models slide 5</a>.</span><span class="tutorial-note">Tutorial extension: The variance formula, square-summability condition, and white-noise qualification are tutorial extensions.</span></p>
+<p>Finite impulse response (FIR) filters use finitely many nonzero weights; infinite impulse response (IIR) filters retain an unbounded history. The guitar slide's arrows deserve literal reading: the input branches into an undelayed path and two successive unit delays; the delayed paths each have gain one half, all three paths sum, and the result passes through an \(N\)-sample delay. Its drawn relation is \(y[n]=x[n-N]+\tfrac12x[n-N-1]+\tfrac12x[n-N-2]\), where \(N\) is the final delay. There is no output-to-input feedback arrow in this figure. It illustrates a feedforward FIR network, whereas the standard Karplus-Strong mechanism named by the slide requires a feedback delay loop. No empirical graphs or numerical trend plots appear in either deck; the visual evidence consists of operator and signal-flow diagrams.<span class="slide-reference">Slide evidence: <a href="#slide-24">Intro slide 24</a>, <a href="#slide-45">Models slide 5</a>.</span><span class="tutorial-note">Tutorial extension: The explicit equation is derived by tracing the guitar diagram; the missing-feedback observation is a tutorial correction.</span></p>
+<div class="slide-grid">
+<figure id="slide-11"><button class="slide-button" type="button" aria-label="Enlarge Intro page 11"><img src="./assets/slide_11.png" alt="Intro page 11: Continuous and discrete convolution preview the shared framework." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p11 · image 11.</strong> Continuous and discrete convolution preview the shared framework.</figcaption></figure>
+<figure id="slide-24"><button class="slide-button" type="button" aria-label="Enlarge Intro page 24"><img src="./assets/slide_24.png" alt="Intro page 24: A delay-and-sum guitar diagram: follow the arrows literally." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p24 · image 24.</strong> A delay-and-sum guitar diagram: follow the arrows literally.</figcaption></figure>
+<figure id="slide-34"><button class="slide-button" type="button" aria-label="Enlarge Intro page 34"><img src="./assets/slide_34.png" alt="Intro page 34: Convolution connects inputs, impulse responses, and outputs." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p34 · image 34.</strong> Convolution connects inputs, impulse responses, and outputs.</figcaption></figure>
+<figure id="slide-35"><button class="slide-button" type="button" aria-label="Enlarge Intro page 35"><img src="./assets/slide_35.png" alt="Intro page 35: An impulse probes the initially resting LTI system." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p35 · image 35.</strong> An impulse probes the initially resting LTI system.</figcaption></figure>
+<figure id="slide-43"><button class="slide-button" type="button" aria-label="Enlarge Models page 3"><img src="./assets/slide_43.png" alt="Models page 3: Independent shocks feed a linear stochastic filter." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p3 · image 43.</strong> Independent shocks feed a linear stochastic filter.</figcaption></figure>
+<figure id="slide-44"><button class="slide-button" type="button" aria-label="Enlarge Models page 4"><img src="./assets/slide_44.png" alt="Models page 4: The level plus weighted shocks defines the output process." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p4 · image 44.</strong> The level plus weighted shocks defines the output process.</figcaption></figure>
+<figure id="slide-45"><button class="slide-button" type="button" aria-label="Enlarge Models page 5"><img src="./assets/slide_45.png" alt="Models page 5: Filter weights, stability, and the stationarity claim." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p5 · image 45.</strong> Filter weights, stability, and the stationarity claim.</figcaption></figure>
+</div>
+<div class="study">
+<p class="tutorial-note">Worked example added for this guide; its foundations are <a href="#slide-11">Intro slide 11</a>, <a href="#slide-34">Intro slide 34</a>, <a href="#slide-35">Intro slide 35</a>.</p>
+<h3>Study trace · dependence from independent shocks</h3>
+<p>Let \(z_t=\mu+a_t+0.5a_{t-1}\). Only one shock is shared by adjacent observations, so \(\operatorname{Var}(z_t)=1.25\sigma_a^2\), \(\operatorname{Cov}(z_t,z_{t-1})=0.5\sigma_a^2\), and covariances beyond lag one are zero. Independence of the shocks does not imply independence of their overlapping filtered outputs.</p>
+</div>
+<div class="exam">
+<h3>Exam pitfall · sufficient is not necessary</h3>
+<p>The statement on <a href="#slide-45">Models slide 5</a> that failure of absolute summability automatically implies nonstationarity is too strong. For example, \(\psi_j=1/(j+1)\) is square-summable but not absolutely summable: filtering finite-variance white noise in the mean-square sense gives a weakly stationary process, although the filter is not BIBO stable. A nonstationary process can also have a well-defined mean; a random walk can have constant mean and time-growing variance.</p>
+</div>
+</section>
+<section id="equations" aria-labelledby="equations-title">
+<h2 id="equations-title">4. Read equations as implementable signal flow</h2>
+
+<p>Constant-coefficient differential and difference equations encode the same organizing idea: a weighted combination of output changes is driven by a weighted combination of input changes. Using a consistent indexing convention,
+<span class="math">\[\sum_{k=0}^{N}a_k\frac{d^k y(t)}{dt^k}=\sum_{k=0}^{M}b_k\frac{d^k x(t)}{dt^k},\qquad \sum_{k=0}^{N}a_k y[n-k]=\sum_{k=0}^{M}b_k x[n-k].\]</span>
+Here \(a_k,b_k\) are constant coefficients, \(x\) the input, \(y\) the output, and \(N,M\) the highest output/input derivative or delay indices in the respective equation. For discrete time, \(a_0\ne0\) permits solving for the current output. The continuous derivative-chain figure sends differentiated inputs through gains to a sum and combines output derivative branches according to the differential equation. Such drawings express algebraic structure; practical realizations often use integrators to avoid repeated differentiation of noisy measurements.<span class="slide-reference">Slide evidence: <a href="#slide-25">Intro slide 25</a>, <a href="#slide-26">Intro slide 26</a>, <a href="#slide-27">Intro slide 27</a>, <a href="#slide-28">Intro slide 28</a>.</span><span class="tutorial-note">Tutorial extension: The displayed equations use corrected, consistent coefficients and indexing.</span></p>
+<p>The discrete direct-form diagram has an input delay chain, a separate output delay chain, tap gains, and summing junctions. Reading it with all output terms initially on the left gives
+<span class="math">\[y[n]=\sum_{k=0}^{M}\frac{b_k}{a_0}x[n-k]-\sum_{k=1}^{N}\frac{a_k}{a_0}y[n-k].\]</span>
+Every \(z^{-1}\) box stores one previous sample; output feedback creates recurrence and commonly an IIR response. Positive gain labels on a feedback drawing can instead denote coefficients after their signs have been absorbed into the recurrence. Consequently, determine the sign convention from the defining equation before copying a diagram into code. Initial conditions also matter: total output is the sum of zero-input response from the initial state and zero-state response from the driving signal. A linear differential equation with a fixed nonzero initial state generally defines an affine input-output map.<span class="slide-reference">Slide evidence: <a href="#slide-26">Intro slide 26</a>, <a href="#slide-28">Intro slide 28</a>, <a href="#slide-29">Intro slide 29</a>.</span><span class="tutorial-note">Tutorial extension: The solved recurrence and affine-map interpretation make the sign and initialization assumptions explicit.</span></p>
+<p>Sampling a derivative motivates finite differences but does not make them exact identities for arbitrary smooth signals:
+<span class="math">\[y_c'(nT)\approx\frac{y[n]-y[n-1]}{T},\qquad y_c''(nT)\approx\frac{y[n]-2y[n-1]+y[n-2]}{T^2}.\]</span>
+Here \(y_c\) is the continuous signal, \(y[n]=y_c(nT)\), \(T\) the sampling interval, and \(n\) the sample index. The first diagram subtracts a delayed branch before scaling by \(1/T\); cascading that operation gives the second diagram's tap weights \(1,-2,1\) and factor \(1/T^2\). Both backward formulas have first-order error at \(nT\) under sufficient smoothness; the second-difference expression is centered at \((n-1)T\), where it has second-order error. A physical sampling interval must be retained when units matter.<span class="slide-reference">Slide evidence: <a href="#slide-30">Intro slide 30</a>, <a href="#slide-31">Intro slide 31</a>, <a href="#slide-32">Intro slide 32</a>, <a href="#slide-33">Intro slide 33</a>.</span><span class="tutorial-note">Tutorial extension: Approximation symbols, error orders, and evaluation-time distinctions correct and expand the finite-difference slides.</span></p>
+<div class="slide-grid">
+<figure id="slide-25"><button class="slide-button" type="button" aria-label="Enlarge Intro page 25"><img src="./assets/slide_25.png" alt="Intro page 25: Continuous-time linear constant-coefficient differential equation." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p25 · image 25.</strong> Continuous-time linear constant-coefficient differential equation.</figcaption></figure>
+<figure id="slide-26"><button class="slide-button" type="button" aria-label="Enlarge Intro page 26"><img src="./assets/slide_26.png" alt="Intro page 26: Compact derivative notation and initial conditions." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p26 · image 26.</strong> Compact derivative notation and initial conditions.</figcaption></figure>
+<figure id="slide-27"><button class="slide-button" type="button" aria-label="Enlarge Intro page 27"><img src="./assets/slide_27.png" alt="Intro page 27: Weighted derivative branches form a system representation." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p27 · image 27.</strong> Weighted derivative branches form a system representation.</figcaption></figure>
+<figure id="slide-28"><button class="slide-button" type="button" aria-label="Enlarge Intro page 28"><img src="./assets/slide_28.png" alt="Intro page 28: Discrete difference equations need corrected consistent indexing." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p28 · image 28.</strong> Discrete difference equations need corrected consistent indexing.</figcaption></figure>
+<figure id="slide-29"><button class="slide-button" type="button" aria-label="Enlarge Intro page 29"><img src="./assets/slide_29.png" alt="Intro page 29: Direct form uses input and output delay chains." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p29 · image 29.</strong> Direct form uses input and output delay chains.</figcaption></figure>
+<figure id="slide-30"><button class="slide-button" type="button" aria-label="Enlarge Intro page 30"><img src="./assets/slide_30.png" alt="Intro page 30: Derivative and integrator representations." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p30 · image 30.</strong> Derivative and integrator representations.</figcaption></figure>
+<figure id="slide-31"><button class="slide-button" type="button" aria-label="Enlarge Intro page 31"><img src="./assets/slide_31.png" alt="Intro page 31: First backward difference subtracts one delayed sample." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p31 · image 31.</strong> First backward difference subtracts one delayed sample.</figcaption></figure>
+<figure id="slide-32"><button class="slide-button" type="button" aria-label="Enlarge Intro page 32"><img src="./assets/slide_32.png" alt="Intro page 32: Second derivative as a system operator." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p32 · image 32.</strong> Second derivative as a system operator.</figcaption></figure>
+<figure id="slide-33"><button class="slide-button" type="button" aria-label="Enlarge Intro page 33"><img src="./assets/slide_33.png" alt="Intro page 33: Second difference combines three samples." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p33 · image 33.</strong> Second difference combines three samples.</figcaption></figure>
+</div>
+<div class="study">
+<p class="tutorial-note">Worked example added for this guide; its foundations are <a href="#slide-25">Intro slide 25</a>, <a href="#slide-26">Intro slide 26</a>, <a href="#slide-27">Intro slide 27</a>, <a href="#slide-28">Intro slide 28</a>.</p>
+<h3>Study trace · from a differential equation to a recursion</h3>
+<p>Take \(y_c'(t)+\lambda y_c(t)=\kappa x_c(t)\), with decay rate \(\lambda&gt;0\), input gain \(\kappa\), and sampling interval \(T&gt;0\). A backward-difference approximation gives \(y[n]=\alpha y[n-1]+\beta x[n]\), where \(\alpha=1/(1+\lambda T)\) and \(\beta=\kappa T/(1+\lambda T)\). Since \(0&lt;\alpha&lt;1\), its zero-state impulse response is \(\beta\alpha^n\) for nonnegative \(n\), and zero otherwise. This is a discretization, not the exact sampled continuous-time solution.</p>
+</div>
+<div class="exam">
+<h3>Exam pitfall · repair notation before deriving</h3>
+<p><a href="#slide-26">Intro slide 26</a> omits the input coefficients in its compact displayed sum; <a href="#slide-28">Intro slide 28</a> repeats and misindexes terms. Use the consistent equations above. <a href="#slide-31">Intro slide 31</a> and <a href="#slide-33">Intro slide 33</a> write finite-difference substitutions with equality, but their relationship to continuous derivatives is approximate. Zero initial conditions make the input-output map linear; they do not change whether the underlying differential equation is linear.</p>
+</div>
+</section>
+<section id="state" aria-labelledby="state-title">
+<h2 id="state-title">5. State compresses memory and extends models to many variables</h2>
+
+<p>A state is a sufficient summary of the past for predicting future evolution when future inputs are supplied. A high-order scalar equation can therefore be represented by a first-order vector equation. To avoid confusing state with the scalar input used earlier, denote the state by \(\mathbf s\):
+<span class="math">\[\dot{\mathbf s}(t)=A\mathbf s(t)+B_u\mathbf u(t),\qquad \mathbf y(t)=C\mathbf s(t)+D\mathbf u(t).\]</span>
+Here \(\mathbf s\in\mathbb R^{n_s}\) is the state, \(\mathbf u\in\mathbb R^{m}\) the input, \(\mathbf y\in\mathbb R^{p}\) the output, \(A\in\mathbb R^{n_s\times n_s}\) the dynamics matrix, \(B_u\in\mathbb R^{n_s\times m}\) the input matrix, \(C\in\mathbb R^{p\times n_s}\) the measurement matrix, and \(D\in\mathbb R^{p\times m}\) the direct feedthrough matrix. The symbol \(B_u\) here is a matrix, distinct from the backward-shift operator \(B\). Constant matrices define a time-invariant realization; time-dependent matrices define a potentially time-varying one.<span class="slide-reference">Slide evidence: <a href="#slide-36">Intro slide 36</a>, <a href="#slide-37">Intro slide 37</a>.</span><span class="tutorial-note">Tutorial extension: The state symbol is renamed to avoid confusing it with the input; the definition of a sufficient state is explanatory.</span></p>
+<p>Discrete time replaces the derivative with a next-state update:
+<span class="math">\[\mathbf s[k+1]=A_d\mathbf s[k]+B_d\mathbf u[k],\qquad \mathbf y[k]=C_d\mathbf s[k]+D_d\mathbf u[k].\]</span>
+The integer \(k\) indexes samples; the subscripted matrices have the same corresponding dimensions as in continuous time but describe discrete dynamics. One state coordinate can store a previous output and another a previous input. Thus a vector model can represent a scalar input-output system; state dimension does not determine the number of measured variables. Multiple input and output coordinates extend the same framework to MIMO systems, where cross-coupling matrices express how one channel influences another over time.<span class="slide-reference">Slide evidence: <a href="#slide-38">Intro slide 38</a>, <a href="#slide-09">Intro slide 9</a>.</span><span class="tutorial-note">Tutorial extension: The discussion of state dimension versus input/output dimension expands the state-space equations.</span></p>
+<p>With zero initial state, eliminating the internal state yields a transfer matrix:
+<span class="math">\[G(z)=C_d(zI-A_d)^{-1}B_d+D_d.\]</span>
+Here \(z\) is the complex Z-transform variable, \(I\) the identity matrix of size \(n_s\), and \(G\) maps transformed inputs to outputs wherever the inverse exists. For a discrete impulse, \(H[0]=D_d\) and \(H[j]=C_dA_d^{j-1}B_d\) for integer \(j\ge1\), where \(H[j]\) is the matrix impulse response. The feedthrough path is instantaneous; the state path carries memory. An autonomous system has no external driving input, while a nonzero initial state can still generate output.<span class="slide-reference">Slide evidence: <a href="#slide-35">Intro slide 35</a>, <a href="#slide-36">Intro slide 36</a>, <a href="#slide-37">Intro slide 37</a>, <a href="#slide-38">Intro slide 38</a>.</span><span class="tutorial-note">Tutorial extension: The transfer-matrix elimination and matrix impulse-response formulas are derived extensions.</span></p>
+<div class="slide-grid">
+<figure id="slide-36"><button class="slide-button" type="button" aria-label="Enlarge Intro page 36"><img src="./assets/slide_36.png" alt="Intro page 36: State, input, output, and matrix dimensions in continuous time." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p36 · image 36.</strong> State, input, output, and matrix dimensions in continuous time.</figcaption></figure>
+<figure id="slide-37"><button class="slide-button" type="button" aria-label="Enlarge Intro page 37"><img src="./assets/slide_37.png" alt="Intro page 37: Constant matrices, autonomy, and feedthrough." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p37 · image 37.</strong> Constant matrices, autonomy, and feedthrough.</figcaption></figure>
+<figure id="slide-38"><button class="slide-button" type="button" aria-label="Enlarge Intro page 38"><img src="./assets/slide_38.png" alt="Intro page 38: A discrete first-order vector update stores memory." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p38 · image 38.</strong> A discrete first-order vector update stores memory.</figcaption></figure>
+</div>
+<div class="study">
+<p class="tutorial-note">Worked example added for this guide; its foundations are <a href="#slide-36">Intro slide 36</a>, <a href="#slide-37">Intro slide 37</a>.</p>
+<h3>Study trace · one recursion, two equivalent descriptions</h3>
+<p>For \(y[k]=\alpha y[k-1]+\beta u[k]\), define \(s[k]=y[k-1]\). Then \(s[k+1]=\alpha s[k]+\beta u[k]\) and \(y[k]=\alpha s[k]+\beta u[k]\). Hence \(A_d=C_d=\alpha\) and \(B_d=D_d=\beta\), all scalar matrices. The resulting transfer is \(G(z)=\beta/(1-\alpha z^{-1})\), agreeing with the delay-polynomial recursion. The direct term appears because the chosen output uses the current input.</p>
+</div>
+<div class="exam">
+<h3>Exam pitfall · internal stability and observed stability differ</h3>
+<p>If all eigenvalues of \(A_d\) have magnitude below one, the finite-dimensional discrete realization is internally asymptotically stable and has a stable input-output response. The converse can fail when unstable internal modes are unobservable or unreachable. For continuous time, the corresponding internal condition is strictly negative real parts, not eigenvalue magnitudes below one.</p>
+</div>
+</section>
+<section id="arma" aria-labelledby="arma-title">
+<h2 id="arma-title">6. AR, MA, ARMA, and integration organize stochastic memory</h2>
+
+<p>Regression becomes autoregression when the predictors are the series' own past values. Center the series as \(\widetilde z_t=z_t-\mu\), where \(\mu\) is its stationary mean. The main model families can then be written together:
+<span class="math">\[\begin{aligned}\text{AR}(p):\quad &amp;\phi(B)\widetilde z_t=a_t,\\ \text{MA}(q):\quad &amp;\widetilde z_t=\theta(B)a_t,\\ \text{ARMA}(p,q):\quad &amp;\phi(B)\widetilde z_t=\theta(B)a_t,\\ \phi(B)&amp;=1-\sum_{i=1}^{p}\phi_iB^i,\qquad \theta(B)=1-\sum_{j=1}^{q}\theta_jB^j.\end{aligned}\]</span>
+Here \(p,q\) are the AR and MA orders, \(\phi_i\) coefficients of past observations, \(\theta_j\) coefficients of past shocks using the deck's minus-sign convention, \(B\) the delay operator, and \(a_t\) zero-mean white noise with variance \(\sigma_a^2\). AR memory is recurrent output feedback; MA memory is a finite weighted shock history. A statistical MA model does not mean an ordinary rolling average of observed values.<span class="slide-reference">Slide evidence: <a href="#slide-46">Models slide 6</a>, <a href="#slide-47">Models slide 7</a>, <a href="#slide-49">Models slide 9</a>, <a href="#slide-50">Models slide 10</a>.</span></p>
+<p>A causal stationary ARMA process has the innovation-filter form \(\widetilde z_t=\psi(B)a_t\), with \(\psi(B)=\theta(B)/\phi(B)\). For a reduced model with no common polynomial factors, zeros of \(\phi\) must lie outside the unit circle in the complex \(B\)-plane for a causal stable representation. Invertibility instead requires zeros of \(\theta\) outside that circle, permitting recovery of innovations from observed history. Finite MA processes are stationary with finite-variance white noise regardless of invertibility. Generically, estimating mean, variance, and coefficients requires \(p+2\), \(q+2\), or \(p+q+2\) parameters for AR, MA, and ARMA respectively. In an uncentered AR equation the intercept is \(c=\mu(1-\sum_i\phi_i)\), where \(c\) is a constant intercept; it is generally different from the mean.<span class="slide-reference">Slide evidence: <a href="#slide-45">Models slide 5</a>, <a href="#slide-48">Models slide 8</a>, <a href="#slide-49">Models slide 9</a>, <a href="#slide-50">Models slide 10</a>.</span><span class="tutorial-note">Tutorial extension: Causality and invertibility root conditions, polynomial reduction, and the intercept-mean relation extend the slides.</span></p>
+<p>Integration extends these stationary models to series made stationary by differencing:
+<span class="math">\[\phi(B)(1-B)^d z_t=c+\theta(B)a_t.\]</span>
+Here \(d\) is a nonnegative integer differencing order and \(c\) is the intercept in the differenced equation; this is an ARIMA\((p,d,q)\) model. A random walk \(z_t=z_{t-1}+a_t\) has \(d=1\): differencing gives white noise, whereas summing the shocks accumulates uncertainty. With fixed initial value \(z_0\), its variance after \(t\) steps is \(t\sigma_a^2\), so a constant mean does not make it stationary. Differencing is appropriate for this integration mechanism, but it is not a universal cure for structural breaks, changing variance, or deterministic trends. ARIMA is only introduced as a reading topic in the deck; this equation is an explanatory extension.<span class="slide-reference">Slide evidence: <a href="#slide-16">Intro slide 16</a>, <a href="#slide-51">Models slide 11</a>.</span><span class="tutorial-note">Tutorial extension: The ARIMA equation, random-walk variance, and limitations of differencing expand the assigned reading topic.</span></p>
+<div class="slide-grid">
+<figure id="slide-46"><button class="slide-button" type="button" aria-label="Enlarge Models page 6"><img src="./assets/slide_46.png" alt="Models page 6: Regression supplies the starting modeling vocabulary." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p6 · image 46.</strong> Regression supplies the starting modeling vocabulary.</figcaption></figure>
+<figure id="slide-47"><button class="slide-button" type="button" aria-label="Enlarge Models page 7"><img src="./assets/slide_47.png" alt="Models page 7: An AR model regresses centered observations on their past." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p7 · image 47.</strong> An AR model regresses centered observations on their past.</figcaption></figure>
+<figure id="slide-48"><button class="slide-button" type="button" aria-label="Enlarge Models page 8"><img src="./assets/slide_48.png" alt="Models page 8: AR recursion expands into an infinite shock filter." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p8 · image 48.</strong> AR recursion expands into an infinite shock filter.</figcaption></figure>
+<figure id="slide-49"><button class="slide-button" type="button" aria-label="Enlarge Models page 9"><img src="./assets/slide_49.png" alt="Models page 9: MA models use finitely many past innovations." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p9 · image 49.</strong> MA models use finitely many past innovations.</figcaption></figure>
+<figure id="slide-50"><button class="slide-button" type="button" aria-label="Enlarge Models page 10"><img src="./assets/slide_50.png" alt="Models page 10: ARMA combines recurrent and finite shock dependence." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p10 · image 50.</strong> ARMA combines recurrent and finite shock dependence.</figcaption></figure>
+<figure id="slide-51"><button class="slide-button" type="button" aria-label="Enlarge Models page 11"><img src="./assets/slide_51.png" alt="Models page 11: Integrated models introduce differencing for nonstationarity." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p11 · image 51.</strong> Integrated models introduce differencing for nonstationarity.</figcaption></figure>
+</div>
+<div class="study">
+<p class="tutorial-note">Worked example added for this guide; its foundations are <a href="#slide-46">Models slide 6</a>, <a href="#slide-47">Models slide 7</a>, <a href="#slide-49">Models slide 9</a>, <a href="#slide-50">Models slide 10</a>.</p>
+<h3>Study trace · one-step and multi-step prediction</h3>
+<p>For the centered AR(1) model \(\widetilde z_t=\rho\widetilde z_{t-1}+a_t\), assume \(|\rho|&lt;1\) and independent innovations. Given history through time \(t\), the \(h\)-step forecast is \(\widehat z_{t+h\mid t}=\mu+\rho^h(z_t-\mu)\), and its error variance is \(\sigma_a^2\sum_{j=0}^{h-1}\rho^{2j}\), where \(h\) is a positive forecast horizon. The forecast returns toward the mean while uncertainty approaches the stationary variance. For a random walk, the point forecast stays at \(z_t\) and error variance grows as \(h\sigma_a^2\).</p>
+</div>
+<div class="exam">
+<h3>Exam pitfall · stationarity, invertibility, and signs</h3>
+<p>For AR(1), the root of \(1-\rho B\) is \(1/\rho\), so \(|\rho|&lt;1\) means the polynomial root lies outside the unit circle. For the deck's MA(1), \(z_t-\mu=a_t-\theta a_{t-1}\), lag-one covariance is \(-\theta\sigma_a^2\). Software using a plus sign will use the opposite coefficient. A canceled AR/MA factor can also hide redundant parameters; root tests should be applied after reduction.</p>
+</div>
+</section>
+<section id="transfer" aria-labelledby="transfer-title">
+<h2 id="transfer-title">7. Separate the driven response from structured noise</h2>
+
+<p>An observed output can reflect both known external inputs and unobserved shocks. A rational transfer model describes the driven component through a delayed input and recurrent output dynamics:
+<span class="math">\[\delta(B)Y_t=\omega(B)B^bX_t,\qquad \nu(B)=\frac{\omega(B)B^b}{\delta(B)}=\sum_{j=0}^{\infty}\nu_jB^j.\]</span>
+Here \(X_t\) is an external input, \(Y_t\) the deterministic driven output in this equation, \(b\ge0\) an integer dead time, \(\delta\) an output-dynamics polynomial, \(\omega\) an input polynomial, and \(\nu_j\) impulse-response weights. With a causal proper delay-series expansion, the first \(b\) weights are zero. The slides use \(\Omega(B)=\omega(B)B^b\) to absorb the explicit delay. Stability requires absolutely summable weights; in a reduced causal rational representation this corresponds to denominator roots outside the unit circle in the \(B\)-plane.<span class="slide-reference">Slide evidence: <a href="#slide-52">Models slide 12</a>, <a href="#slide-53">Models slide 13</a>, <a href="#slide-54">Models slide 14</a>.</span></p>
+<p>The alternative difference-operator form uses \(\nabla=1-B\), so substituting \(B=1-\nabla\) is algebraically exact between discrete representations. It should not be confused with replacing a continuous derivative by a scaled finite difference, which is an approximation. For example,
+<span class="math">\[(1+\xi\nabla)Y_t=\eta X_{t-b}\quad\Longleftrightarrow\quad Y_t=\frac{\xi}{1+\xi}Y_{t-1}+\frac{\eta}{1+\xi}X_{t-b}.\]</span>
+Here \(\xi,\eta\) are scalar parameters, \(b\) the input delay, and \(1+\xi\ne0\). A low-order numerator and denominator can approximate more complex inertia, but low order alone does not establish a good model. Its adequacy must be assessed against the dependence remaining in the residuals.<span class="slide-reference">Slide evidence: <a href="#slide-16">Intro slide 16</a>, <a href="#slide-52">Models slide 12</a>, <a href="#slide-53">Models slide 13</a>.</span><span class="tutorial-note">Tutorial extension: The first-order equivalence is a worked algebraic derivation; the derivative-versus-difference distinction is a clarification.</span></p>
+<p>The final diagram has two parallel causal paths: external input passes through a dynamic-system filter, innovations pass through a noise filter, and an adder combines their outputs:
+<span class="math">\[Y_t=\nu(B)X_t+N_t=\frac{\omega(B)B^b}{\delta(B)}X_t+\frac{\theta(B)}{\phi(B)}a_t.\]</span>
+Here \(N_t\) is the disturbance process, \(a_t\) its innovations, and \(\phi,\theta\) its AR and MA polynomials; \(Y_t\) now denotes the full noisy observation. Means or deterministic offsets are assumed removed or modeled separately. The slides assume the input and disturbance processes are independent. Estimation must therefore identify both the driven response \(\nu\) and the disturbance filter \(\psi=\theta/\phi\). Persistent residual correlation signals missing noise structure, while residual association with the input can signal missing dynamics or a violated independence assumption.<span class="slide-reference">Slide evidence: <a href="#slide-55">Models slide 15</a>, <a href="#slide-56">Models slide 16</a>.</span><span class="tutorial-note">Tutorial extension: The residual diagnostic interpretations extend the two-filter diagram and estimation discussion.</span></p>
+<div class="slide-grid">
+<figure id="slide-52"><button class="slide-button" type="button" aria-label="Enlarge Models page 12"><img src="./assets/slide_52.png" alt="Models page 12: Difference-operator polynomials express dynamic input-output relations." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p12 · image 52.</strong> Difference-operator polynomials express dynamic input-output relations.</figcaption></figure>
+<figure id="slide-53"><button class="slide-button" type="button" aria-label="Enlarge Models page 13"><img src="./assets/slide_53.png" alt="Models page 13: Delay polynomials reveal input lag and impulse weights." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p13 · image 53.</strong> Delay polynomials reveal input lag and impulse weights.</figcaption></figure>
+<figure id="slide-54"><button class="slide-button" type="button" aria-label="Enlarge Models page 14"><img src="./assets/slide_54.png" alt="Models page 14: A rational transfer function defines a potentially infinite response." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p14 · image 54.</strong> A rational transfer function defines a potentially infinite response.</figcaption></figure>
+<figure id="slide-55"><button class="slide-button" type="button" aria-label="Enlarge Models page 15"><img src="./assets/slide_55.png" alt="Models page 15: Independent input and noise paths meet at the output adder." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p15 · image 55.</strong> Independent input and noise paths meet at the output adder.</figcaption></figure>
+<figure id="slide-56"><button class="slide-button" type="button" aria-label="Enlarge Models page 16"><img src="./assets/slide_56.png" alt="Models page 16: Both the dynamic and noise filters must be estimated." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p16 · image 56.</strong> Both the dynamic and noise filters must be estimated.</figcaption></figure>
+</div>
+<div class="study">
+<p class="tutorial-note">Worked example added for this guide; its foundations are <a href="#slide-52">Models slide 12</a>, <a href="#slide-53">Models slide 13</a>, <a href="#slide-54">Models slide 14</a>.</p>
+<h3>Study trace · separate pulse response from disturbance</h3>
+<p>Let \(\nu(B)=\kappa B^2/(1-\rho B)\) with \(|\rho|&lt;1\), input gain \(\kappa\), and two-sample delay. Expanding the denominator gives weights \(\nu_0=\nu_1=0\), \(\nu_2=\kappa\), \(\nu_3=\kappa\rho\), and \(\nu_{2+j}=\kappa\rho^j\) for nonnegative \(j\). A unit pulse produces this delayed decaying sequence. If disturbance is AR(1), \(N_t=\alpha N_{t-1}+a_t\) with \(|\alpha|&lt;1\), subtracting the modeled pulse response leaves correlated \(N_t\); only \(a_t=N_t-\alpha N_{t-1}\) is the white innovation.</p>
+</div>
+<div class="exam">
+<h3>Exam pitfall · noise is not necessarily white</h3>
+<p>A residual disturbance can be colored even when its innovations are white. Input-noise dependence, as can occur when a controller responds to disturbances, violates the simple independence assumption and can compromise an identification method that relies on it. Forecasting also needs a plan for future external inputs: known, separately predicted, or scenario-based. Gaussian probability limits require a distributional assumption beyond merely knowing a variance.</p>
+</div>
+</section>
+
+<section id="assessment" aria-labelledby="assessment-title">
+<h2 id="assessment-title">Check Your Understanding</h2>
+<p>Each problem joins concepts from several themes. Work out the reasoning before revealing the answer. Parameters below are assumed known, so forecast variances do not include estimation uncertainty.</p>
+<details><summary>1. Can a linear time-invariant model generate a nonstationary series with a constant mean?</summary>
+<p>Yes. Let \(z_t=z_{t-1}+a_t\), where \(a_t\) are independent zero-mean shocks with variance \(\sigma_a^2\), and fix \(z_0=0\). The recurrence has constant coefficients and its zero-state input-output map is linear. But \(z_t=\sum_{i=1}^{t}a_i\), so \(\mathbb E[z_t]=0\) and \(\operatorname{Var}(z_t)=t\sigma_a^2\). The variance depends on time and the impulse response does not decay. Differencing gives \((1-B)z_t=a_t\), a stationary process. Time invariance describes the operator; stationarity describes the output distribution. A nonzero fixed initial state adds a zero-input response and changes the total input-output map to an affine one.</p>
+</details>
+<details><summary>2. Derive the first impulse weights, variance, and invertibility of an ARMA(1,1) model.</summary>
+<p>Take \((1-0.8B)(z_t-\mu)=(1-0.4B)a_t\), where \(B\) delays one sample, \(\mu\) is the mean, and \(a_t\) is white noise of variance \(\sigma_a^2\). Expanding \(\psi(B)=(1-0.4B)/(1-0.8B)\) gives \(\psi_0=1\) and \(\psi_j=0.4(0.8)^{j-1}\) for \(j\ge1\). Thus the first four weights are \(1,0.4,0.32,0.256\), and \(\operatorname{Var}(z_t)=\sigma_a^2[1+0.16/(1-0.64)]=13\sigma_a^2/9\). The AR root is \(1.25\), giving a causal stationary representation, and the MA root is \(2.5\), giving invertibility. Finite AR order does not imply finite impulse memory.</p>
+</details>
+<details><summary>3. How does a delayed external pulse affect a forecast when the disturbance is correlated?</summary>
+<p>Let \(Y_t=\kappa B^2(1-\rho B)^{-1}X_t+N_t\) and \(N_t=\alpha N_{t-1}+a_t\), with \(|\rho|,|\alpha|&lt;1\). Here \(\kappa\) is input gain, \(\rho\) driven-response persistence, \(\alpha\) noise persistence, and independent innovations \(a_t\) have variance \(\sigma_a^2\). Given known input history and future input scenario, compute the driven component \(m_t=\nu(B)X_t\) and infer \(N_t=Y_t-m_t\). The \(h\)-step forecast is \(m_{t+h}+\alpha^hN_t\), with innovation variance \(\sigma_a^2\sum_{j=0}^{h-1}\alpha^{2j}\). A unit pulse at time \(t\) first contributes \(\kappa\) at \(t+2\), then \(\kappa\rho\), and so on. Uncertain future inputs add forecast uncertainty beyond this conditional innovation variance.</p>
+</details>
+<details><summary>4. Build a state realization for an AR(2) recursion and recover its first impulse weights.</summary>
+<p>Consider \(y[k]=a_1y[k-1]+a_2y[k-2]+u[k]\), where \(a_1,a_2\) are fixed recurrence coefficients and \(u\) is the input. Set \(\mathbf s[k]=(y[k-1],y[k-2])^\mathsf T\). Then
+<span class="math">\[A_d=\begin{bmatrix}a_1&amp;a_2\\1&amp;0\end{bmatrix},\quad B_d=\begin{bmatrix}1\\0\end{bmatrix},\quad C_d=\begin{bmatrix}a_1&amp;a_2\end{bmatrix},\quad D_d=1.\]</span>
+The state and output equations are those in Theme 5. For zero initial state and a unit impulse input, \(h[0]=1\), \(h[1]=a_1\), and \(h[2]=a_1^2+a_2\). The transfer is \(G(z)=1/(1-a_1z^{-1}-a_2z^{-2})\). Eigenvalues solve \(\lambda^2-a_1\lambda-a_2=0\); both must lie inside the unit circle for internal stability. The corresponding nonzero roots in the delay-variable polynomial are their reciprocals. Two states do not make this a two-output system.</p>
+</details>
+<details><summary>5. Does differencing remove dependence, and what does it do to measurement noise?</summary>
+<p>Suppose \(z_t=\beta t+\varepsilon_t\), where \(\beta\) is a fixed slope and \(\varepsilon_t\) is IID zero-mean noise with variance \(\sigma_\varepsilon^2\). The difference \(w_t=(1-B)z_t=\beta+\varepsilon_t-\varepsilon_{t-1}\) has constant mean \(\beta\), variance \(2\sigma_\varepsilon^2\), and lag-one covariance \(-\sigma_\varepsilon^2\). It is stationary but has lag-one correlation \(-1/2\); differencing created dependence from overlapping noise terms. In the deck's convention it is MA(1) with coefficient one, on the invertibility boundary. If estimating a physical derivative, divide \(w_t\) by sampling interval \(T\); its noise variance becomes \(2\sigma_\varepsilon^2/T^2\). Smaller sampling intervals can amplify derivative noise even while reducing deterministic approximation error.</p>
+</details>
+</section>
+<footer id="sources">
+<h2>Sources and extraction</h2>
+<p>Source material: Rhandley D. Cajote, EEEI, University of the Philippines Diliman, August 28, 2024. <a href="../../notes/0-review/AI321_Lecture_Notes_Intro_to_Time_Series.pdf">Introduction to Time-Series Analysis</a> (40 pages) and <a href="../../notes/0-review/AI321_Lecture_Notes_Review_Signals%20and%20Systems.pdf">System Models of Time-Series</a> (17 pages). The latter is stored under a Review Signals and Systems filename. All 57 source pages appear once in this guide, grouped by theme rather than original order.</p>
+<p>The source decks cite Box and Jenkins, <em>Time Series Analysis, Forecasting and Control</em>; Proakis and Manolakis, <em>Digital Signal Processing</em>; and DeCarlo, <em>Linear Systems: A State Variable Approach</em>. The original reference slides are preserved below. Worked examples, forecasts, root conditions, and mathematical corrections are tutorial extensions, not verbatim slide statements.</p>
+<div class="slide-grid">
+<figure id="slide-40"><button class="slide-button" type="button" aria-label="Enlarge Intro page 40"><img src="./assets/slide_40.png" alt="Intro page 40: Original bibliography for the introductory deck." loading="lazy" width="947" height="710"></button><figcaption><strong>Intro p40 · image 40.</strong> Original bibliography for the introductory deck.</figcaption></figure>
+<figure id="slide-57"><button class="slide-button" type="button" aria-label="Enlarge Models page 17"><img src="./assets/slide_57.png" alt="Models page 17: Original bibliography for the system-models deck." loading="lazy" width="947" height="710"></button><figcaption><strong>Models p17 · image 57.</strong> Original bibliography for the system-models deck.</figcaption></figure>
+
+</div>
+<p>Files are in <code>artifact/0-review/</code>. To regenerate images, change into that directory and run <code>uv run --with pdf2image python extract_slides.py</code> after installing Poppler. The default script concatenates Intro then Models into <code>./assets/slide_01.png</code> through <code>./assets/slide_57.png</code>. Custom PDF arguments replace that source order; regenerate the guide's mapping if using different decks.</p>
+<p>Slides and answer disclosures work locally. Mathematical typesetting needs access to the MathJax CDN; if unavailable, the LaTeX remains readable. The slide viewer needs JavaScript.</p>
+<p id="math-status" class="status" role="status"></p>
+<!-- study-path:start --><nav class="journey-nav" aria-label="Footer reading navigation"><a class="" href="../index.html"><span class="journey-label">← Previous</span><span class="journey-title">Study library</span><span class="journey-teaser">See all collections and choose a starting point before reviewing the core concepts.</span></a><a class="journey-library" href="../index.html"><span class="journey-label">All guides</span><span class="journey-title">Study library</span><span class="journey-teaser">Browse all five study guides.</span></a><a class="" href="../1-lti-and-random-process/study_guide.html"><span class="journey-label">Next →</span><span class="journey-title">LTI Systems &amp; Random Processes</span><span class="journey-teaser">Next, turn these definitions into concrete sampling, convolution, stability, and random-process calculations.</span></a></nav><!-- study-path:end --></footer>
+</main>
+</div>
+<dialog id="slide-viewer" aria-label="Enlarged reference slide">
+<button id="close-viewer" type="button" autofocus>Close (Esc)</button>
+<div class="viewer-content"><img id="viewer-image" alt=""><p id="viewer-caption"></p></div>
+</dialog>
+<script>
+window.MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] },
+  options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] },
+  startup: { pageReady: () => MathJax.startup.defaultPageReady().then(() => {
+    document.getElementById('math-status').textContent = 'Mathematical notation rendered with MathJax.';
+  }) }
+};
+const mathScript = document.createElement('script');
+mathScript.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+mathScript.async = true;
+mathScript.onerror = () => {
+  document.getElementById('math-status').textContent = 'MathJax could not load. Formulas are shown as LaTeX; reconnect and reload to typeset them.';
+};
+document.body.appendChild(mathScript);
+const viewer = document.getElementById('slide-viewer');
+const viewerImage = document.getElementById('viewer-image');
+const viewerCaption = document.getElementById('viewer-caption');
+let trigger = null;
+document.querySelectorAll('.slide-button').forEach(button => {
+  button.addEventListener('click', () => {
+    trigger = button;
+    const img = button.querySelector('img');
+    viewerImage.src = img.src;
+    viewerImage.alt = img.alt;
+    viewerCaption.textContent = button.closest('figure').querySelector('figcaption').textContent;
+    viewer.showModal();
+    document.body.style.overflow = 'hidden';
+  });
+});
+document.getElementById('close-viewer').addEventListener('click', () => viewer.close());
+viewer.addEventListener('click', event => { if (event.target === viewer) viewer.close(); });
+viewer.addEventListener('close', () => {
+  document.body.style.overflow = '';
+  if (trigger) trigger.focus();
+});
+</script>
+</body>
+</html>

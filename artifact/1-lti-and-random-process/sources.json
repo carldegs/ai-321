@@ -1,0 +1,3215 @@
+[
+  {
+    "image_number": 1,
+    "image": "assets/slide_01.png",
+    "figure_id": "slide-01",
+    "pdf": "AI321_Curve fitting and Dynamic Systems.pdf",
+    "page": 1,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 2,
+    "image": "assets/slide_02.png",
+    "figure_id": "slide-02",
+    "pdf": "AI321_Curve fitting and Dynamic Systems.pdf",
+    "page": 2,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 3,
+    "image": "assets/slide_03.png",
+    "figure_id": "slide-03",
+    "pdf": "AI321_Curve fitting and Dynamic Systems.pdf",
+    "page": 3,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 4,
+    "image": "assets/slide_04.png",
+    "figure_id": "slide-04",
+    "pdf": "AI321_Curve fitting and Dynamic Systems.pdf",
+    "page": 4,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 5,
+    "image": "assets/slide_05.png",
+    "figure_id": "slide-05",
+    "pdf": "AI321_Curve fitting and Dynamic Systems.pdf",
+    "page": 5,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 6,
+    "image": "assets/slide_06.png",
+    "figure_id": "slide-06",
+    "pdf": "AI321_Curve fitting and Dynamic Systems.pdf",
+    "page": 6,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 7,
+    "image": "assets/slide_07.png",
+    "figure_id": "slide-07",
+    "pdf": "AI321_Curve fitting and Dynamic Systems.pdf",
+    "page": 7,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 8,
+    "image": "assets/slide_08.png",
+    "figure_id": "slide-08",
+    "pdf": "AI321_Curve fitting and Dynamic Systems.pdf",
+    "page": 8,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 9,
+    "image": "assets/slide_09.png",
+    "figure_id": "slide-09",
+    "pdf": "AI321_Curve fitting and Dynamic Systems.pdf",
+    "page": 9,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 10,
+    "image": "assets/slide_10.png",
+    "figure_id": "slide-10",
+    "pdf": "AI321_Curve fitting and Dynamic Systems.pdf",
+    "page": 10,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 11,
+    "image": "assets/slide_11.png",
+    "figure_id": "slide-11",
+    "pdf": "AI321_Curve fitting and Dynamic Systems.pdf",
+    "page": 11,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 12,
+    "image": "assets/slide_12.png",
+    "figure_id": "slide-12",
+    "pdf": "AI321_Curve fitting and Dynamic Systems.pdf",
+    "page": 12,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 13,
+    "image": "assets/slide_13.png",
+    "figure_id": "slide-13",
+    "pdf": "AI321_Curve fitting and Dynamic Systems.pdf",
+    "page": 13,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 14,
+    "image": "assets/slide_14.png",
+    "figure_id": "slide-14",
+    "pdf": "AI321_Curve fitting and Dynamic Systems.pdf",
+    "page": 14,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 15,
+    "image": "assets/slide_15.png",
+    "figure_id": "slide-15",
+    "pdf": "AI321_Curve fitting and Dynamic Systems.pdf",
+    "page": 15,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 16,
+    "image": "assets/slide_16.png",
+    "figure_id": "slide-16",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 1,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 17,
+    "image": "assets/slide_17.png",
+    "figure_id": "slide-17",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 2,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 18,
+    "image": "assets/slide_18.png",
+    "figure_id": "slide-18",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 3,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 19,
+    "image": "assets/slide_19.png",
+    "figure_id": "slide-19",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 4,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 20,
+    "image": "assets/slide_20.png",
+    "figure_id": "slide-20",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 5,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 21,
+    "image": "assets/slide_21.png",
+    "figure_id": "slide-21",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 6,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 22,
+    "image": "assets/slide_22.png",
+    "figure_id": "slide-22",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 7,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 23,
+    "image": "assets/slide_23.png",
+    "figure_id": "slide-23",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 8,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 24,
+    "image": "assets/slide_24.png",
+    "figure_id": "slide-24",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 9,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 25,
+    "image": "assets/slide_25.png",
+    "figure_id": "slide-25",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 10,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 26,
+    "image": "assets/slide_26.png",
+    "figure_id": "slide-26",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 11,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 27,
+    "image": "assets/slide_27.png",
+    "figure_id": "slide-27",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 12,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 28,
+    "image": "assets/slide_28.png",
+    "figure_id": "slide-28",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 13,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 29,
+    "image": "assets/slide_29.png",
+    "figure_id": "slide-29",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 14,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 30,
+    "image": "assets/slide_30.png",
+    "figure_id": "slide-30",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 15,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 31,
+    "image": "assets/slide_31.png",
+    "figure_id": "slide-31",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 16,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 32,
+    "image": "assets/slide_32.png",
+    "figure_id": "slide-32",
+    "pdf": "AI321_Lecture_Notes_SystemModels.pdf",
+    "page": 17,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 33,
+    "image": "assets/slide_33.png",
+    "figure_id": "slide-33",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 1,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 34,
+    "image": "assets/slide_34.png",
+    "figure_id": "slide-34",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 2,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 35,
+    "image": "assets/slide_35.png",
+    "figure_id": "slide-35",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 3,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 36,
+    "image": "assets/slide_36.png",
+    "figure_id": "slide-36",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 4,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 37,
+    "image": "assets/slide_37.png",
+    "figure_id": "slide-37",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 5,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 38,
+    "image": "assets/slide_38.png",
+    "figure_id": "slide-38",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 6,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 39,
+    "image": "assets/slide_39.png",
+    "figure_id": "slide-39",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 7,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 40,
+    "image": "assets/slide_40.png",
+    "figure_id": "slide-40",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 8,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 41,
+    "image": "assets/slide_41.png",
+    "figure_id": "slide-41",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 9,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 42,
+    "image": "assets/slide_42.png",
+    "figure_id": "slide-42",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 10,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 43,
+    "image": "assets/slide_43.png",
+    "figure_id": "slide-43",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 11,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 44,
+    "image": "assets/slide_44.png",
+    "figure_id": "slide-44",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 12,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 45,
+    "image": "assets/slide_45.png",
+    "figure_id": "slide-45",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 13,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 46,
+    "image": "assets/slide_46.png",
+    "figure_id": "slide-46",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 14,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 47,
+    "image": "assets/slide_47.png",
+    "figure_id": "slide-47",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 15,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 48,
+    "image": "assets/slide_48.png",
+    "figure_id": "slide-48",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 16,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 49,
+    "image": "assets/slide_49.png",
+    "figure_id": "slide-49",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 17,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 50,
+    "image": "assets/slide_50.png",
+    "figure_id": "slide-50",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 18,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 51,
+    "image": "assets/slide_51.png",
+    "figure_id": "slide-51",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 19,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 52,
+    "image": "assets/slide_52.png",
+    "figure_id": "slide-52",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 20,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 53,
+    "image": "assets/slide_53.png",
+    "figure_id": "slide-53",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 21,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 54,
+    "image": "assets/slide_54.png",
+    "figure_id": "slide-54",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 22,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 55,
+    "image": "assets/slide_55.png",
+    "figure_id": "slide-55",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 23,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 56,
+    "image": "assets/slide_56.png",
+    "figure_id": "slide-56",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 24,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 57,
+    "image": "assets/slide_57.png",
+    "figure_id": "slide-57",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 25,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 58,
+    "image": "assets/slide_58.png",
+    "figure_id": "slide-58",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 26,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 59,
+    "image": "assets/slide_59.png",
+    "figure_id": "slide-59",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 27,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 60,
+    "image": "assets/slide_60.png",
+    "figure_id": "slide-60",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 28,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 61,
+    "image": "assets/slide_61.png",
+    "figure_id": "slide-61",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 29,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 62,
+    "image": "assets/slide_62.png",
+    "figure_id": "slide-62",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 30,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 63,
+    "image": "assets/slide_63.png",
+    "figure_id": "slide-63",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 31,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 64,
+    "image": "assets/slide_64.png",
+    "figure_id": "slide-64",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 32,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 65,
+    "image": "assets/slide_65.png",
+    "figure_id": "slide-65",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 33,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 66,
+    "image": "assets/slide_66.png",
+    "figure_id": "slide-66",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 34,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 67,
+    "image": "assets/slide_67.png",
+    "figure_id": "slide-67",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 35,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 68,
+    "image": "assets/slide_68.png",
+    "figure_id": "slide-68",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 36,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 69,
+    "image": "assets/slide_69.png",
+    "figure_id": "slide-69",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 37,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 70,
+    "image": "assets/slide_70.png",
+    "figure_id": "slide-70",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 38,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 71,
+    "image": "assets/slide_71.png",
+    "figure_id": "slide-71",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 39,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 72,
+    "image": "assets/slide_72.png",
+    "figure_id": "slide-72",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 40,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 73,
+    "image": "assets/slide_73.png",
+    "figure_id": "slide-73",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 41,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 74,
+    "image": "assets/slide_74.png",
+    "figure_id": "slide-74",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 42,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 75,
+    "image": "assets/slide_75.png",
+    "figure_id": "slide-75",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 43,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 76,
+    "image": "assets/slide_76.png",
+    "figure_id": "slide-76",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 44,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 77,
+    "image": "assets/slide_77.png",
+    "figure_id": "slide-77",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 45,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 78,
+    "image": "assets/slide_78.png",
+    "figure_id": "slide-78",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 46,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 79,
+    "image": "assets/slide_79.png",
+    "figure_id": "slide-79",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 47,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 80,
+    "image": "assets/slide_80.png",
+    "figure_id": "slide-80",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 48,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 81,
+    "image": "assets/slide_81.png",
+    "figure_id": "slide-81",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 49,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 82,
+    "image": "assets/slide_82.png",
+    "figure_id": "slide-82",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 50,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 83,
+    "image": "assets/slide_83.png",
+    "figure_id": "slide-83",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 51,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 84,
+    "image": "assets/slide_84.png",
+    "figure_id": "slide-84",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 52,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 85,
+    "image": "assets/slide_85.png",
+    "figure_id": "slide-85",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 53,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 86,
+    "image": "assets/slide_86.png",
+    "figure_id": "slide-86",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 54,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 87,
+    "image": "assets/slide_87.png",
+    "figure_id": "slide-87",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 55,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 88,
+    "image": "assets/slide_88.png",
+    "figure_id": "slide-88",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 56,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 89,
+    "image": "assets/slide_89.png",
+    "figure_id": "slide-89",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 57,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 90,
+    "image": "assets/slide_90.png",
+    "figure_id": "slide-90",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 58,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 91,
+    "image": "assets/slide_91.png",
+    "figure_id": "slide-91",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 59,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 92,
+    "image": "assets/slide_92.png",
+    "figure_id": "slide-92",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 60,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 93,
+    "image": "assets/slide_93.png",
+    "figure_id": "slide-93",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 61,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 94,
+    "image": "assets/slide_94.png",
+    "figure_id": "slide-94",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 62,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 95,
+    "image": "assets/slide_95.png",
+    "figure_id": "slide-95",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 63,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 96,
+    "image": "assets/slide_96.png",
+    "figure_id": "slide-96",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 64,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 97,
+    "image": "assets/slide_97.png",
+    "figure_id": "slide-97",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 65,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 98,
+    "image": "assets/slide_98.png",
+    "figure_id": "slide-98",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 66,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 99,
+    "image": "assets/slide_99.png",
+    "figure_id": "slide-99",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 67,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 100,
+    "image": "assets/slide_100.png",
+    "figure_id": "slide-100",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 68,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 101,
+    "image": "assets/slide_101.png",
+    "figure_id": "slide-101",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 69,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 102,
+    "image": "assets/slide_102.png",
+    "figure_id": "slide-102",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 70,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 103,
+    "image": "assets/slide_103.png",
+    "figure_id": "slide-103",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 71,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 104,
+    "image": "assets/slide_104.png",
+    "figure_id": "slide-104",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 72,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 105,
+    "image": "assets/slide_105.png",
+    "figure_id": "slide-105",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 73,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 106,
+    "image": "assets/slide_106.png",
+    "figure_id": "slide-106",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 74,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 107,
+    "image": "assets/slide_107.png",
+    "figure_id": "slide-107",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 75,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 108,
+    "image": "assets/slide_108.png",
+    "figure_id": "slide-108",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 76,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 109,
+    "image": "assets/slide_109.png",
+    "figure_id": "slide-109",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 77,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 110,
+    "image": "assets/slide_110.png",
+    "figure_id": "slide-110",
+    "pdf": "Intro_Random_Process.pdf",
+    "page": 78,
+    "width": 1100,
+    "height": 825
+  },
+  {
+    "image_number": 111,
+    "image": "assets/slide_111.png",
+    "figure_id": "slide-111",
+    "pdf": "LTI_system_representations.pdf",
+    "page": 1,
+    "width": 935,
+    "height": 1210
+  },
+  {
+    "image_number": 112,
+    "image": "assets/slide_112.png",
+    "figure_id": "slide-112",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 1,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 113,
+    "image": "assets/slide_113.png",
+    "figure_id": "slide-113",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 2,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 114,
+    "image": "assets/slide_114.png",
+    "figure_id": "slide-114",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 3,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 115,
+    "image": "assets/slide_115.png",
+    "figure_id": "slide-115",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 4,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 116,
+    "image": "assets/slide_116.png",
+    "figure_id": "slide-116",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 5,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 117,
+    "image": "assets/slide_117.png",
+    "figure_id": "slide-117",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 6,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 118,
+    "image": "assets/slide_118.png",
+    "figure_id": "slide-118",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 7,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 119,
+    "image": "assets/slide_119.png",
+    "figure_id": "slide-119",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 8,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 120,
+    "image": "assets/slide_120.png",
+    "figure_id": "slide-120",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 9,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 121,
+    "image": "assets/slide_121.png",
+    "figure_id": "slide-121",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 10,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 122,
+    "image": "assets/slide_122.png",
+    "figure_id": "slide-122",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 11,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 123,
+    "image": "assets/slide_123.png",
+    "figure_id": "slide-123",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 12,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 124,
+    "image": "assets/slide_124.png",
+    "figure_id": "slide-124",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 13,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 125,
+    "image": "assets/slide_125.png",
+    "figure_id": "slide-125",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 14,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 126,
+    "image": "assets/slide_126.png",
+    "figure_id": "slide-126",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 15,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 127,
+    "image": "assets/slide_127.png",
+    "figure_id": "slide-127",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 16,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 128,
+    "image": "assets/slide_128.png",
+    "figure_id": "slide-128",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 17,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 129,
+    "image": "assets/slide_129.png",
+    "figure_id": "slide-129",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 18,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 130,
+    "image": "assets/slide_130.png",
+    "figure_id": "slide-130",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 19,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 131,
+    "image": "assets/slide_131.png",
+    "figure_id": "slide-131",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 20,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 132,
+    "image": "assets/slide_132.png",
+    "figure_id": "slide-132",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 21,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 133,
+    "image": "assets/slide_133.png",
+    "figure_id": "slide-133",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 22,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 134,
+    "image": "assets/slide_134.png",
+    "figure_id": "slide-134",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 23,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 135,
+    "image": "assets/slide_135.png",
+    "figure_id": "slide-135",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 24,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 136,
+    "image": "assets/slide_136.png",
+    "figure_id": "slide-136",
+    "pdf": "Overview of Time Series Analysis.pdf",
+    "page": 25,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 137,
+    "image": "assets/slide_137.png",
+    "figure_id": "slide-137",
+    "pdf": "Practice_problems_Sampling_and_Quantization.pdf",
+    "page": 1,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 138,
+    "image": "assets/slide_138.png",
+    "figure_id": "slide-138",
+    "pdf": "Practice_problems_Sampling_and_Quantization.pdf",
+    "page": 2,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 139,
+    "image": "assets/slide_139.png",
+    "figure_id": "slide-139",
+    "pdf": "Practice_problems_Sampling_and_Quantization.pdf",
+    "page": 3,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 140,
+    "image": "assets/slide_140.png",
+    "figure_id": "slide-140",
+    "pdf": "Practice_problems_Sampling_and_Quantization.pdf",
+    "page": 4,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 141,
+    "image": "assets/slide_141.png",
+    "figure_id": "slide-141",
+    "pdf": "Practice_problems_Sampling_and_Quantization.pdf",
+    "page": 5,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 142,
+    "image": "assets/slide_142.png",
+    "figure_id": "slide-142",
+    "pdf": "Practice_problems_Sampling_and_Quantization.pdf",
+    "page": 6,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 143,
+    "image": "assets/slide_143.png",
+    "figure_id": "slide-143",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 1,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 144,
+    "image": "assets/slide_144.png",
+    "figure_id": "slide-144",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 2,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 145,
+    "image": "assets/slide_145.png",
+    "figure_id": "slide-145",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 3,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 146,
+    "image": "assets/slide_146.png",
+    "figure_id": "slide-146",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 4,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 147,
+    "image": "assets/slide_147.png",
+    "figure_id": "slide-147",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 5,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 148,
+    "image": "assets/slide_148.png",
+    "figure_id": "slide-148",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 6,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 149,
+    "image": "assets/slide_149.png",
+    "figure_id": "slide-149",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 7,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 150,
+    "image": "assets/slide_150.png",
+    "figure_id": "slide-150",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 8,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 151,
+    "image": "assets/slide_151.png",
+    "figure_id": "slide-151",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 9,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 152,
+    "image": "assets/slide_152.png",
+    "figure_id": "slide-152",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 10,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 153,
+    "image": "assets/slide_153.png",
+    "figure_id": "slide-153",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 11,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 154,
+    "image": "assets/slide_154.png",
+    "figure_id": "slide-154",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 12,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 155,
+    "image": "assets/slide_155.png",
+    "figure_id": "slide-155",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 13,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 156,
+    "image": "assets/slide_156.png",
+    "figure_id": "slide-156",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 14,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 157,
+    "image": "assets/slide_157.png",
+    "figure_id": "slide-157",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 15,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 158,
+    "image": "assets/slide_158.png",
+    "figure_id": "slide-158",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 16,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 159,
+    "image": "assets/slide_159.png",
+    "figure_id": "slide-159",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 17,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 160,
+    "image": "assets/slide_160.png",
+    "figure_id": "slide-160",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 18,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 161,
+    "image": "assets/slide_161.png",
+    "figure_id": "slide-161",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 19,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 162,
+    "image": "assets/slide_162.png",
+    "figure_id": "slide-162",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 20,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 163,
+    "image": "assets/slide_163.png",
+    "figure_id": "slide-163",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 21,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 164,
+    "image": "assets/slide_164.png",
+    "figure_id": "slide-164",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 22,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 165,
+    "image": "assets/slide_165.png",
+    "figure_id": "slide-165",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 23,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 166,
+    "image": "assets/slide_166.png",
+    "figure_id": "slide-166",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 24,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 167,
+    "image": "assets/slide_167.png",
+    "figure_id": "slide-167",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 25,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 168,
+    "image": "assets/slide_168.png",
+    "figure_id": "slide-168",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 26,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 169,
+    "image": "assets/slide_169.png",
+    "figure_id": "slide-169",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 27,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 170,
+    "image": "assets/slide_170.png",
+    "figure_id": "slide-170",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 28,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 171,
+    "image": "assets/slide_171.png",
+    "figure_id": "slide-171",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 29,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 172,
+    "image": "assets/slide_172.png",
+    "figure_id": "slide-172",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 30,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 173,
+    "image": "assets/slide_173.png",
+    "figure_id": "slide-173",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 31,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 174,
+    "image": "assets/slide_174.png",
+    "figure_id": "slide-174",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 32,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 175,
+    "image": "assets/slide_175.png",
+    "figure_id": "slide-175",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 33,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 176,
+    "image": "assets/slide_176.png",
+    "figure_id": "slide-176",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 34,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 177,
+    "image": "assets/slide_177.png",
+    "figure_id": "slide-177",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 35,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 178,
+    "image": "assets/slide_178.png",
+    "figure_id": "slide-178",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 36,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 179,
+    "image": "assets/slide_179.png",
+    "figure_id": "slide-179",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 37,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 180,
+    "image": "assets/slide_180.png",
+    "figure_id": "slide-180",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 38,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 181,
+    "image": "assets/slide_181.png",
+    "figure_id": "slide-181",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 39,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 182,
+    "image": "assets/slide_182.png",
+    "figure_id": "slide-182",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 40,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 183,
+    "image": "assets/slide_183.png",
+    "figure_id": "slide-183",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 41,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 184,
+    "image": "assets/slide_184.png",
+    "figure_id": "slide-184",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 42,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 185,
+    "image": "assets/slide_185.png",
+    "figure_id": "slide-185",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 43,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 186,
+    "image": "assets/slide_186.png",
+    "figure_id": "slide-186",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 44,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 187,
+    "image": "assets/slide_187.png",
+    "figure_id": "slide-187",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 45,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 188,
+    "image": "assets/slide_188.png",
+    "figure_id": "slide-188",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 46,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 189,
+    "image": "assets/slide_189.png",
+    "figure_id": "slide-189",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 47,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 190,
+    "image": "assets/slide_190.png",
+    "figure_id": "slide-190",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 48,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 191,
+    "image": "assets/slide_191.png",
+    "figure_id": "slide-191",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 49,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 192,
+    "image": "assets/slide_192.png",
+    "figure_id": "slide-192",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 50,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 193,
+    "image": "assets/slide_193.png",
+    "figure_id": "slide-193",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 51,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 194,
+    "image": "assets/slide_194.png",
+    "figure_id": "slide-194",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 52,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 195,
+    "image": "assets/slide_195.png",
+    "figure_id": "slide-195",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 53,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 196,
+    "image": "assets/slide_196.png",
+    "figure_id": "slide-196",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 54,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 197,
+    "image": "assets/slide_197.png",
+    "figure_id": "slide-197",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 55,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 198,
+    "image": "assets/slide_198.png",
+    "figure_id": "slide-198",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 56,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 199,
+    "image": "assets/slide_199.png",
+    "figure_id": "slide-199",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 57,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 200,
+    "image": "assets/slide_200.png",
+    "figure_id": "slide-200",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 58,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 201,
+    "image": "assets/slide_201.png",
+    "figure_id": "slide-201",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 59,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 202,
+    "image": "assets/slide_202.png",
+    "figure_id": "slide-202",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 60,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 203,
+    "image": "assets/slide_203.png",
+    "figure_id": "slide-203",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 61,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 204,
+    "image": "assets/slide_204.png",
+    "figure_id": "slide-204",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 62,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 205,
+    "image": "assets/slide_205.png",
+    "figure_id": "slide-205",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 63,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 206,
+    "image": "assets/slide_206.png",
+    "figure_id": "slide-206",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 64,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 207,
+    "image": "assets/slide_207.png",
+    "figure_id": "slide-207",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 65,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 208,
+    "image": "assets/slide_208.png",
+    "figure_id": "slide-208",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 66,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 209,
+    "image": "assets/slide_209.png",
+    "figure_id": "slide-209",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 67,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 210,
+    "image": "assets/slide_210.png",
+    "figure_id": "slide-210",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 68,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 211,
+    "image": "assets/slide_211.png",
+    "figure_id": "slide-211",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 69,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 212,
+    "image": "assets/slide_212.png",
+    "figure_id": "slide-212",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 70,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 213,
+    "image": "assets/slide_213.png",
+    "figure_id": "slide-213",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 71,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 214,
+    "image": "assets/slide_214.png",
+    "figure_id": "slide-214",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 72,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 215,
+    "image": "assets/slide_215.png",
+    "figure_id": "slide-215",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 73,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 216,
+    "image": "assets/slide_216.png",
+    "figure_id": "slide-216",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 74,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 217,
+    "image": "assets/slide_217.png",
+    "figure_id": "slide-217",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 75,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 218,
+    "image": "assets/slide_218.png",
+    "figure_id": "slide-218",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 76,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 219,
+    "image": "assets/slide_219.png",
+    "figure_id": "slide-219",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 77,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 220,
+    "image": "assets/slide_220.png",
+    "figure_id": "slide-220",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 78,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 221,
+    "image": "assets/slide_221.png",
+    "figure_id": "slide-221",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 79,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 222,
+    "image": "assets/slide_222.png",
+    "figure_id": "slide-222",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 80,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 223,
+    "image": "assets/slide_223.png",
+    "figure_id": "slide-223",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 81,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 224,
+    "image": "assets/slide_224.png",
+    "figure_id": "slide-224",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 82,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 225,
+    "image": "assets/slide_225.png",
+    "figure_id": "slide-225",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 83,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 226,
+    "image": "assets/slide_226.png",
+    "figure_id": "slide-226",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 84,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 227,
+    "image": "assets/slide_227.png",
+    "figure_id": "slide-227",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 85,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 228,
+    "image": "assets/slide_228.png",
+    "figure_id": "slide-228",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 86,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 229,
+    "image": "assets/slide_229.png",
+    "figure_id": "slide-229",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 87,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 230,
+    "image": "assets/slide_230.png",
+    "figure_id": "slide-230",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 88,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 231,
+    "image": "assets/slide_231.png",
+    "figure_id": "slide-231",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 89,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 232,
+    "image": "assets/slide_232.png",
+    "figure_id": "slide-232",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 90,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 233,
+    "image": "assets/slide_233.png",
+    "figure_id": "slide-233",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 91,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 234,
+    "image": "assets/slide_234.png",
+    "figure_id": "slide-234",
+    "pdf": "Review_DT_Signals_Systems.pdf",
+    "page": 92,
+    "width": 1100,
+    "height": 619
+  },
+  {
+    "image_number": 235,
+    "image": "assets/slide_235.png",
+    "figure_id": "slide-235",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 1,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 236,
+    "image": "assets/slide_236.png",
+    "figure_id": "slide-236",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 2,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 237,
+    "image": "assets/slide_237.png",
+    "figure_id": "slide-237",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 3,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 238,
+    "image": "assets/slide_238.png",
+    "figure_id": "slide-238",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 4,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 239,
+    "image": "assets/slide_239.png",
+    "figure_id": "slide-239",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 5,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 240,
+    "image": "assets/slide_240.png",
+    "figure_id": "slide-240",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 6,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 241,
+    "image": "assets/slide_241.png",
+    "figure_id": "slide-241",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 7,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 242,
+    "image": "assets/slide_242.png",
+    "figure_id": "slide-242",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 8,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 243,
+    "image": "assets/slide_243.png",
+    "figure_id": "slide-243",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 9,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 244,
+    "image": "assets/slide_244.png",
+    "figure_id": "slide-244",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 10,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 245,
+    "image": "assets/slide_245.png",
+    "figure_id": "slide-245",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 11,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 246,
+    "image": "assets/slide_246.png",
+    "figure_id": "slide-246",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 12,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 247,
+    "image": "assets/slide_247.png",
+    "figure_id": "slide-247",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 13,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 248,
+    "image": "assets/slide_248.png",
+    "figure_id": "slide-248",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 14,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 249,
+    "image": "assets/slide_249.png",
+    "figure_id": "slide-249",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 15,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 250,
+    "image": "assets/slide_250.png",
+    "figure_id": "slide-250",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 16,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 251,
+    "image": "assets/slide_251.png",
+    "figure_id": "slide-251",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 17,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 252,
+    "image": "assets/slide_252.png",
+    "figure_id": "slide-252",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 18,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 253,
+    "image": "assets/slide_253.png",
+    "figure_id": "slide-253",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 19,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 254,
+    "image": "assets/slide_254.png",
+    "figure_id": "slide-254",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 20,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 255,
+    "image": "assets/slide_255.png",
+    "figure_id": "slide-255",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 21,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 256,
+    "image": "assets/slide_256.png",
+    "figure_id": "slide-256",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 22,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 257,
+    "image": "assets/slide_257.png",
+    "figure_id": "slide-257",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 23,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 258,
+    "image": "assets/slide_258.png",
+    "figure_id": "slide-258",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 24,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 259,
+    "image": "assets/slide_259.png",
+    "figure_id": "slide-259",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 25,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 260,
+    "image": "assets/slide_260.png",
+    "figure_id": "slide-260",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 26,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 261,
+    "image": "assets/slide_261.png",
+    "figure_id": "slide-261",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 27,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 262,
+    "image": "assets/slide_262.png",
+    "figure_id": "slide-262",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 28,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 263,
+    "image": "assets/slide_263.png",
+    "figure_id": "slide-263",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 29,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 264,
+    "image": "assets/slide_264.png",
+    "figure_id": "slide-264",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 30,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 265,
+    "image": "assets/slide_265.png",
+    "figure_id": "slide-265",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 31,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 266,
+    "image": "assets/slide_266.png",
+    "figure_id": "slide-266",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 32,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 267,
+    "image": "assets/slide_267.png",
+    "figure_id": "slide-267",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 33,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 268,
+    "image": "assets/slide_268.png",
+    "figure_id": "slide-268",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 34,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 269,
+    "image": "assets/slide_269.png",
+    "figure_id": "slide-269",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 35,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 270,
+    "image": "assets/slide_270.png",
+    "figure_id": "slide-270",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 36,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 271,
+    "image": "assets/slide_271.png",
+    "figure_id": "slide-271",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 37,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 272,
+    "image": "assets/slide_272.png",
+    "figure_id": "slide-272",
+    "pdf": "Review_System_Responses.pdf",
+    "page": 38,
+    "width": 1210,
+    "height": 935
+  },
+  {
+    "image_number": 273,
+    "image": "assets/slide_273.png",
+    "figure_id": "slide-273",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 1,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 274,
+    "image": "assets/slide_274.png",
+    "figure_id": "slide-274",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 2,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 275,
+    "image": "assets/slide_275.png",
+    "figure_id": "slide-275",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 3,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 276,
+    "image": "assets/slide_276.png",
+    "figure_id": "slide-276",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 4,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 277,
+    "image": "assets/slide_277.png",
+    "figure_id": "slide-277",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 5,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 278,
+    "image": "assets/slide_278.png",
+    "figure_id": "slide-278",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 6,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 279,
+    "image": "assets/slide_279.png",
+    "figure_id": "slide-279",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 7,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 280,
+    "image": "assets/slide_280.png",
+    "figure_id": "slide-280",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 8,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 281,
+    "image": "assets/slide_281.png",
+    "figure_id": "slide-281",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 9,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 282,
+    "image": "assets/slide_282.png",
+    "figure_id": "slide-282",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 10,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 283,
+    "image": "assets/slide_283.png",
+    "figure_id": "slide-283",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 11,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 284,
+    "image": "assets/slide_284.png",
+    "figure_id": "slide-284",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 12,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 285,
+    "image": "assets/slide_285.png",
+    "figure_id": "slide-285",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 13,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 286,
+    "image": "assets/slide_286.png",
+    "figure_id": "slide-286",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 14,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 287,
+    "image": "assets/slide_287.png",
+    "figure_id": "slide-287",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 15,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 288,
+    "image": "assets/slide_288.png",
+    "figure_id": "slide-288",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 16,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 289,
+    "image": "assets/slide_289.png",
+    "figure_id": "slide-289",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 17,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 290,
+    "image": "assets/slide_290.png",
+    "figure_id": "slide-290",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 18,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 291,
+    "image": "assets/slide_291.png",
+    "figure_id": "slide-291",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 19,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 292,
+    "image": "assets/slide_292.png",
+    "figure_id": "slide-292",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 20,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 293,
+    "image": "assets/slide_293.png",
+    "figure_id": "slide-293",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 21,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 294,
+    "image": "assets/slide_294.png",
+    "figure_id": "slide-294",
+    "pdf": "Week 3 - MIMO.pdf",
+    "page": 22,
+    "width": 1467,
+    "height": 825
+  },
+  {
+    "image_number": 295,
+    "image": "assets/slide_295.png",
+    "figure_id": "slide-295",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 1,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 296,
+    "image": "assets/slide_296.png",
+    "figure_id": "slide-296",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 2,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 297,
+    "image": "assets/slide_297.png",
+    "figure_id": "slide-297",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 3,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 298,
+    "image": "assets/slide_298.png",
+    "figure_id": "slide-298",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 4,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 299,
+    "image": "assets/slide_299.png",
+    "figure_id": "slide-299",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 5,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 300,
+    "image": "assets/slide_300.png",
+    "figure_id": "slide-300",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 6,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 301,
+    "image": "assets/slide_301.png",
+    "figure_id": "slide-301",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 7,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 302,
+    "image": "assets/slide_302.png",
+    "figure_id": "slide-302",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 8,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 303,
+    "image": "assets/slide_303.png",
+    "figure_id": "slide-303",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 9,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 304,
+    "image": "assets/slide_304.png",
+    "figure_id": "slide-304",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 10,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 305,
+    "image": "assets/slide_305.png",
+    "figure_id": "slide-305",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 11,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 306,
+    "image": "assets/slide_306.png",
+    "figure_id": "slide-306",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 12,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 307,
+    "image": "assets/slide_307.png",
+    "figure_id": "slide-307",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 13,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 308,
+    "image": "assets/slide_308.png",
+    "figure_id": "slide-308",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 14,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 309,
+    "image": "assets/slide_309.png",
+    "figure_id": "slide-309",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 15,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 310,
+    "image": "assets/slide_310.png",
+    "figure_id": "slide-310",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 16,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 311,
+    "image": "assets/slide_311.png",
+    "figure_id": "slide-311",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 17,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 312,
+    "image": "assets/slide_312.png",
+    "figure_id": "slide-312",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 18,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 313,
+    "image": "assets/slide_313.png",
+    "figure_id": "slide-313",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 19,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 314,
+    "image": "assets/slide_314.png",
+    "figure_id": "slide-314",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 20,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 315,
+    "image": "assets/slide_315.png",
+    "figure_id": "slide-315",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 21,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 316,
+    "image": "assets/slide_316.png",
+    "figure_id": "slide-316",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 22,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 317,
+    "image": "assets/slide_317.png",
+    "figure_id": "slide-317",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 23,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 318,
+    "image": "assets/slide_318.png",
+    "figure_id": "slide-318",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 24,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 319,
+    "image": "assets/slide_319.png",
+    "figure_id": "slide-319",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 25,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 320,
+    "image": "assets/slide_320.png",
+    "figure_id": "slide-320",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 26,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 321,
+    "image": "assets/slide_321.png",
+    "figure_id": "slide-321",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 27,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 322,
+    "image": "assets/slide_322.png",
+    "figure_id": "slide-322",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 28,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 323,
+    "image": "assets/slide_323.png",
+    "figure_id": "slide-323",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 29,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 324,
+    "image": "assets/slide_324.png",
+    "figure_id": "slide-324",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 30,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 325,
+    "image": "assets/slide_325.png",
+    "figure_id": "slide-325",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 31,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 326,
+    "image": "assets/slide_326.png",
+    "figure_id": "slide-326",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 32,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 327,
+    "image": "assets/slide_327.png",
+    "figure_id": "slide-327",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 33,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 328,
+    "image": "assets/slide_328.png",
+    "figure_id": "slide-328",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 34,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 329,
+    "image": "assets/slide_329.png",
+    "figure_id": "slide-329",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 35,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 330,
+    "image": "assets/slide_330.png",
+    "figure_id": "slide-330",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 36,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 331,
+    "image": "assets/slide_331.png",
+    "figure_id": "slide-331",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 37,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 332,
+    "image": "assets/slide_332.png",
+    "figure_id": "slide-332",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 38,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 333,
+    "image": "assets/slide_333.png",
+    "figure_id": "slide-333",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 39,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 334,
+    "image": "assets/slide_334.png",
+    "figure_id": "slide-334",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 40,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 335,
+    "image": "assets/slide_335.png",
+    "figure_id": "slide-335",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 41,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 336,
+    "image": "assets/slide_336.png",
+    "figure_id": "slide-336",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 42,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 337,
+    "image": "assets/slide_337.png",
+    "figure_id": "slide-337",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 43,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 338,
+    "image": "assets/slide_338.png",
+    "figure_id": "slide-338",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 44,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 339,
+    "image": "assets/slide_339.png",
+    "figure_id": "slide-339",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 45,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 340,
+    "image": "assets/slide_340.png",
+    "figure_id": "slide-340",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 46,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 341,
+    "image": "assets/slide_341.png",
+    "figure_id": "slide-341",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 47,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 342,
+    "image": "assets/slide_342.png",
+    "figure_id": "slide-342",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 48,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 343,
+    "image": "assets/slide_343.png",
+    "figure_id": "slide-343",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 49,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 344,
+    "image": "assets/slide_344.png",
+    "figure_id": "slide-344",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 50,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 345,
+    "image": "assets/slide_345.png",
+    "figure_id": "slide-345",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 51,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 346,
+    "image": "assets/slide_346.png",
+    "figure_id": "slide-346",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 52,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 347,
+    "image": "assets/slide_347.png",
+    "figure_id": "slide-347",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 53,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 348,
+    "image": "assets/slide_348.png",
+    "figure_id": "slide-348",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 54,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 349,
+    "image": "assets/slide_349.png",
+    "figure_id": "slide-349",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 55,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 350,
+    "image": "assets/slide_350.png",
+    "figure_id": "slide-350",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 56,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 351,
+    "image": "assets/slide_351.png",
+    "figure_id": "slide-351",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 57,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 352,
+    "image": "assets/slide_352.png",
+    "figure_id": "slide-352",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 58,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 353,
+    "image": "assets/slide_353.png",
+    "figure_id": "slide-353",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 59,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 354,
+    "image": "assets/slide_354.png",
+    "figure_id": "slide-354",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 60,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 355,
+    "image": "assets/slide_355.png",
+    "figure_id": "slide-355",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 61,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 356,
+    "image": "assets/slide_356.png",
+    "figure_id": "slide-356",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 62,
+    "width": 693,
+    "height": 390
+  },
+  {
+    "image_number": 357,
+    "image": "assets/slide_357.png",
+    "figure_id": "slide-357",
+    "pdf": "Week3_LTI_Systems_Analysis.pdf",
+    "page": 63,
+    "width": 693,
+    "height": 390
+  }
+]
